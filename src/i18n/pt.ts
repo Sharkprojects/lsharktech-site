@@ -105,11 +105,15 @@ const pt: Translation = {
     title: 'Tecnologias',
     items: [
       'Python',
+      'Go',
       'TypeScript',
       'Next.js',
       'React',
-      'Node.js',
-      'PostgreSQL',
+      'FastAPI',
+      'Fyne',
+      'SQLite',
+      'MySQL',
+      'Oracle Cloud DB',
       'Docker',
       'AWS',
       'Cloudflare',
@@ -130,6 +134,7 @@ const pt: Translation = {
     button: 'Fale Conosco',
     github: 'GitHub',
     linkedin: 'LinkedIn',
+    telegram: 'Telegram',
   },
   footer: {
     companyName: 'L Shark Tech LTDA',
@@ -153,6 +158,8 @@ const pt: Translation = {
     links: [
       { label: 'Visitar Site', url: 'https://allcripto.com' },
       { label: 'Ver Vídeos', url: 'https://www.youtube.com/playlist?list=PLsFo-9CVHpWKFgC2yFER-n0MD_-bLtU0I' },
+      { label: 'Telegram', url: 'https://t.me/allcripto_lshark_bot?start=SEM_REF' },
+      { label: 'Instagram', url: 'https://instagram.com/allcripto.new' },
     ],
     featuresLabel: 'Funcionalidades',
     technologiesLabel: 'Tecnologias',
@@ -163,7 +170,7 @@ const pt: Translation = {
   polybot: {
     title: 'PolyBot Copy Trading',
     description:
-      'Sistema de copy trading para Polymarket com acompanhamento de posições, execução automática e avaliação de confiança por modelos de IA, monitorização em tempo real, gestão com análise e execuções para os mercados de 5-15Min BTC, ETH, SOL em criptomoedas e motor de controle de temperaturas máximas para o mercado de Clima baseado em fontes oficiais, e análise de Surebets em casas de apostas e de mercados preditivos.',
+      'Sistema de copy trading para Polymarket com acompanhamento de posições, execução automática e avaliação de confiança por modelos de IA, monitoramento em tempo real, gestão com análise e execuções para os mercados de 5-15Min BTC, ETH, SOL em criptomoedas e motor de controle de temperaturas máximas para o mercado de Clima baseado em fontes oficiais, e análise de Surebets em casas de apostas e de mercados preditivos.',
     badge: 'Plataforma Privada',
     technologies: [
       'Python',
@@ -189,7 +196,7 @@ const pt: Translation = {
   traderDashboard: {
     title: 'Trader Dashboard',
     description:
-      'Dashboard para monitorização de operações de trading esportivo com insights ao vivo sobre os mais variados mercados e eventos monitorados, incluindo métricas de performance, gestão de portfólio e análise de resultados.',
+      'Dashboard para monitoramento de operações de trading esportivo com insights ao vivo sobre os mais variados mercados e eventos monitorados, incluindo métricas de performance, gestão de portfólio e análise de resultados.',
     badge: 'Plataforma Privada',
     technologies: [
       'React',

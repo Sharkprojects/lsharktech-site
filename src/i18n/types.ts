@@ -69,6 +69,7 @@ export interface Translation {
     button: string;
     github: string;
     linkedin: string;
+    telegram: string;
   };
   footer: {
     companyName: string;

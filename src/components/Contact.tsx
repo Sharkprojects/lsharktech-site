@@ -1,6 +1,6 @@
 'use client';
 
-import { GitBranch, Link, Mail, MapPin, ArrowUpRight } from 'lucide-react';
+import { GitBranch, Link, Mail, MapPin, ArrowUpRight, Send } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 
 const SOCIALS = [
@@ -13,6 +13,11 @@ const SOCIALS = [
     label: 'linkedin',
     href: 'https://www.linkedin.com/in/leandro-souza-gomes-751a05166/',
     icon: Link,
+  },
+  {
+    label: 'telegram',
+    href: 'https://t.me/allcripto_lshark_bot?start=SEM_REF',
+    icon: Send,
   },
 ] as const;
 
