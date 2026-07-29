@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useLanguage } from '@/context/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
 
@@ -20,9 +21,19 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <button
           onClick={() => scrollTo('home')}
-          className="text-lg font-semibold tracking-tight text-gray-900"
+          className="flex items-center gap-2"
         >
-          L Shark Tech
+          <Image
+            src="/brand/logo-symbol.svg"
+            alt="L Shark Tech"
+            width={28}
+            height={28}
+            className="shrink-0"
+            priority
+          />
+          <span className="text-lg font-semibold tracking-tight text-gray-900">
+            L Shark Tech
+          </span>
         </button>
 
         <div className="hidden items-center gap-8 md:flex">

@@ -1,60 +1,58 @@
 # L Shark Tech — Brand Kit
 
-## Logo Versions
+## Files
 
-| File | Usage |
-|------|-------|
-| `logo.svg` | Full logo with symbol, name and slogan. Use for websites, documents and presentations. |
-| `logo-horizontal.svg` | Symbol + name side by side. Use for headers, navigation and social media. |
-| `logo-vertical.svg` | Symbol centered above name. Use for profile pictures, badges and square formats. |
-| `logo-symbol.svg` | Icon only. Use for favicons, app icons and avatar thumbnails. |
-| `icon.svg` | Same as logo-symbol. Base icon for all derivatives. |
-
-## Color Variants
-
-| File | When to use |
-|------|-------------|
-| `logo-dark.svg` | On light/white backgrounds (default). Symbol in #45C7F4, text in #111111. |
-| `logo-light.svg` | On dark backgrounds (#111111). Symbol in #45C7F4, text in white. |
-| `logo-monochrome-black.svg` | When only black is allowed (e.g., black-and-white print). |
-| `logo-monochrome-white.svg` | When only white is allowed (e.g., dark backgrounds with no color). |
+| File | Type | Description |
+|------|------|-------------|
+| `icon.svg` | Vector | Símbolo base da marca (L + barbatana + tecnologia) |
+| `logo-symbol.svg` | Vector | Mesmo que icon.svg — versão isolada do símbolo |
+| `logo-horizontal.svg` | Vector | Símbolo + nome "L SHARK TECH" lado a lado |
+| `logo-vertical.svg` | Vector | Símbolo centralizado com nome abaixo em duas linhas |
+| `logo-dark.svg` | Vector | Logo para fundos escuros (símbolo ciano, texto branco) |
+| `logo-light.svg` | Vector | Logo para fundos claros (símbolo e texto cinza escuro) |
+| `logo-dark.png` | Raster 800×800 | Versão raster do logo-dark |
+| `logo-light.png` | Raster 800×800 | Versão raster do logo-light |
 
 ## Favicon & App Icons
 
 | File | Size | Purpose |
 |------|------|---------|
-| `favicon.ico` | 32×32 | Browser tab icon |
-| `favicon.svg` | — | Modern SVG favicon |
-| `favicon-16.png` | 16×16 | Legacy browsers |
-| `favicon-32.png` | 32×32 | Desktop shortcuts |
+| `favicon.ico` | multi | Browser tab (derivado do símbolo) |
+| `favicon.svg` | — | Favicon vetorial moderno |
+| `favicon-96x96.png` | 96×96 | Dispositivos Android (antigo) |
 | `apple-touch-icon.png` | 180×180 | iOS home screen |
-| `android-chrome-192.png` | 192×192 | Android PWA |
-| `android-chrome-512.png` | 512×512 | Android splash screen |
+| `android-chrome-192x192.png` | 192×192 | Android PWA |
+| `android-chrome-512x512.png` | 512×512 | Android splash screen |
 
-Copies of `favicon.ico`, `favicon.svg` and `apple-touch-icon.png` are also placed at `public/` root for automatic discovery by browsers.
+Cópias de `favicon.ico`, `favicon.svg` e `apple-touch-icon.png` estão também em `public/` (raiz) para descoberta automática por navegadores, e em `src/app/favicon.ico` para o App Router do Next.js.
 
-## Color Palette
+## Símbolo
 
-| Token | Hex |
-|-------|-----|
-| Primary | `#45C7F4` |
-| Background | `#111111` |
-| Dark | `#1A1A1A` |
-| Border | `#2B2B2B` |
-| White | `#FFFFFF` |
+O símbolo é construído com paths vetoriais描 que formam:
+- A letra **L**
+- Uma **barbatana dorsal** estilizada
+- Conexões/linhas de **dados e tecnologia**
+- Um formato que também evoca um **circuito** ou **engenharia**
 
-## Typography
+Paleta de cores aplicada:
+- Traços principais: `#45C7F4` (ciano) na versão dark
+- Traços versão light: `#3A3A3A` (cinza escuro)
 
-| Usage | Font |
-|-------|------|
-| Logo | Geist / Inter, 700 weight, uppercase, wide letter-spacing |
-| Slogan | Geist / Inter, 400 weight, uppercase, wide letter-spacing |
+## Uso recomendado
 
-## Best Practices
+| Contexto | Arquivo |
+|----------|---------|
+| Header do site (fundo claro) | `logo-light.svg` ou `logo-light.png` |
+| Header do site (fundo escuro) | `logo-dark.svg` ou `logo-dark.png` |
+| Apenas ícone (favicon, avatar) | `icon.svg` |
+| Apresentações / documentos | `logo-horizontal.svg` |
+| Perfil quadrado / badge | `logo-vertical.svg` |
 
-- Always use the vector SVGs when possible. PNGs are provided for environments that do not support SVG.
-- Do not stretch, distort, or rotate the logo.
-- Maintain clear space around the logo equal to at least the height of the symbol.
-- The symbol (icon) should never be used without the accent dot.
-- Favicon must always be the symbol — never the full logo.
-- For dark mode, use the light variant. For light mode, use the dark variant.
+## Boas práticas
+
+- Sempre usar SVG quando possível (escala sem perda)
+- PNGs fornecidos para ambientes que não suportam SVG
+- Não distorcer, esticar ou rotacionar o logotipo
+- Manter espaço de respiro ao redor do símbolo
+- Favicon deve sempre usar apenas o símbolo, nunca o logotipo completo
+- Preferir `icon.svg` para favicon em navegadores modernos
