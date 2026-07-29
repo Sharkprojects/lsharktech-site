@@ -53,7 +53,10 @@ export interface Translation {
   };
   technologies: {
     title: string;
-    items: string[];
+    categories: Array<{
+      name: string;
+      items: string[];
+    }>;
   };
   about: {
     title: string;

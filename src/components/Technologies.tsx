@@ -12,14 +12,23 @@ export default function Technologies() {
           {t.technologies.title}
         </h2>
 
-        <div className="mt-10 flex flex-wrap gap-3">
-          {t.technologies.items.map((tech) => (
-            <span
-              key={tech}
-              className="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm transition-all hover:border-blue-200 hover:text-blue-700"
-            >
-              {tech}
-            </span>
+        <div className="mt-10 space-y-8">
+          {t.technologies.categories.map((cat) => (
+            <div key={cat.name}>
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-400">
+                {cat.name}
+              </h3>
+              <div className="mt-3 flex flex-wrap gap-3">
+                {cat.items.map((tech) => (
+                  <span
+                    key={tech}
+                    className="rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm transition-all hover:border-blue-200 hover:text-blue-700"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </div>

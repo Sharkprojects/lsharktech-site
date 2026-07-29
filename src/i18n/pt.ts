@@ -55,8 +55,8 @@ const pt: Translation = {
           'Integração de API',
           'Monitoramento em tempo real',
         ],
-        badge: 'Público',
-        badgeType: 'public',
+        badge: 'Demonstração Privada',
+        badgeType: 'private',
         slug: 'allcripto',
         links: [
           { label: 'Visitar Site', url: 'https://allcripto.com' },
@@ -103,21 +103,35 @@ const pt: Translation = {
   },
   technologies: {
     title: 'Tecnologias',
-    items: [
-      'Python',
-      'Go',
-      'TypeScript',
-      'Next.js',
-      'React',
-      'FastAPI',
-      'Fyne',
-      'SQLite',
-      'MySQL',
-      'Oracle Cloud DB',
-      'Docker',
-      'AWS',
-      'Cloudflare',
-      'GitHub Actions',
+    categories: [
+      {
+        name: 'Linguagens',
+        items: ['Python', 'Go', 'TypeScript', 'JavaScript', 'HTML5', 'CSS'],
+      },
+      {
+        name: 'Frontend',
+        items: ['React', 'Next.js', 'Fyne'],
+      },
+      {
+        name: 'Backend',
+        items: ['FastAPI', 'Microservices', 'Redis'],
+      },
+      {
+        name: 'Bancos de Dados',
+        items: ['SQLite', 'MySQL', 'Oracle Cloud DB'],
+      },
+      {
+        name: 'IA',
+        items: ['LLM Integration', 'AI Agents', 'Artificial Intelligence'],
+      },
+      {
+        name: 'Cloud & DevOps',
+        items: ['Docker', 'AWS', 'Cloudflare', 'GitHub Actions'],
+      },
+      {
+        name: 'Especialidades',
+        items: ['Task Scheduling', 'Real-Time Systems', 'Telegram, Discord e Slack Bot'],
+      },
     ],
   },
   about: {
