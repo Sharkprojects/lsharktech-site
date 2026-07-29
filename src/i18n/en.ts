@@ -106,7 +106,7 @@ const en: Translation = {
     categories: [
       {
         name: 'Languages',
-        items: ['Python', 'Go', 'TypeScript', 'JavaScript', 'HTML5'],
+        items: ['Python', 'Go', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3'],
       },
       {
         name: 'Frontend',
@@ -114,19 +114,19 @@ const en: Translation = {
       },
       {
         name: 'Backend',
-        items: ['FastAPI', 'Microservices', 'Redis'],
+        items: ['FastAPI', 'Microservices'],
       },
       {
         name: 'Databases',
-        items: ['SQLite', 'MySQL', 'Oracle Cloud Infrastructure', 'Redis'],
+        items: ['SQLite', 'MySQL', 'Redis'],
       },
       {
         name: 'AI',
-        items: ['LLM Integration', 'Prompt Engineering', 'AI Agents', 'Artificial Intelligence'],
+        items: ['Artificial Intelligence', 'AI Agents', 'LLM Integration', 'Prompt Engineering'],
       },
       {
         name: 'Cloud & DevOps',
-        items: ['Docker', 'AWS', 'Cloudflare', 'GitHub Actions'],
+        items: ['Docker', 'AWS', 'Cloudflare', 'GitHub Actions', 'Oracle Cloud Infrastructure'],
       },
       {
         name: 'Analytics & BI',
@@ -134,7 +134,7 @@ const en: Translation = {
       },
       {
         name: 'Specialties',
-        items: ['Algorithmic Trading', 'Automation', 'Bot Development', 'Task Scheduling', 'Real-Time Systems', 'Telegram, Discord & Slack Bot'],
+        items: ['Algorithmic Trading', 'Automation', 'Task Scheduling', 'Real-Time Systems', 'Telegram, Discord & Slack Bot'],
       },
     ],
   },
