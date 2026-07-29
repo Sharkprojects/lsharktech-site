@@ -28,8 +28,8 @@ export default function Navbar() {
         <Image
           src="/brand/logo-horizontal.svg"
           alt="L Shark Tech"
-          width={300}
-          height={72}
+          width={330}
+          height={141}
           className="h-16 w-auto"
           priority
         />
