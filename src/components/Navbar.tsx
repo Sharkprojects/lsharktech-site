@@ -26,8 +26,8 @@ export default function Navbar() {
           <Image
             src="/brand/logo-horizontal.svg"
             alt="L Shark Tech"
-            width={28}
-            height={28}
+            width={190}
+            height={48}
             className="shrink-0"
             priority
           />
