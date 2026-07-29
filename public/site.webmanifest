@@ -1,0 +1,21 @@
+{
+  "name": "L Shark Tech",
+  "short_name": "L Shark Tech",
+  "description": "Building Intelligent Software for Trading, AI & Data Engineering",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#45C7F4",
+  "icons": [
+    {
+      "src": "/brand/android-chrome-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/brand/android-chrome-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

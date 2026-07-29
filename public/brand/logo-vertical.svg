@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="#45C7F4">
+  <g id="symbol">
+    <path d="M 82 20
+             C 82 -16, 86 -44, 92 -56
+             C 98 -48, 104 -36, 106 -26
+             C 106 -20, 104 -14, 102 -10
+             L 138 -10
+             L 138 4
+             L 102 4
+             C 100 8, 98 14, 94 20
+             Z" />
+    <circle cx="112" cy="-50" r="3" />
+  </g>
+  <g id="text" fill="#111111">
+    <text x="100" y="52" text-anchor="middle" font-family="Geist, Inter, 'Helvetica Neue', system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="6">L SHARK</text>
+    <text x="100" y="82" text-anchor="middle" font-family="Geist, Inter, 'Helvetica Neue', system-ui, sans-serif" font-size="22" font-weight="700" letter-spacing="6">TECH</text>
+  </g>
+</svg>
