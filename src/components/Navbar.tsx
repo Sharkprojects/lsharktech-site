@@ -28,9 +28,9 @@ export default function Navbar() {
         <Image
           src="/brand/logo-horizontal.svg"
           alt="L Shark Tech"
-          width={190}
-          height={48}
-          className="h-10 w-auto"
+          width={300}
+          height={72}
+          className="h-16 w-auto"
           priority
         />
       </button>
