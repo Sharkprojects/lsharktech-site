@@ -172,6 +172,10 @@ const en: Translation = {
       'Fast',
       'Sqlite',
       'Docker',
+      'Telegram Bot',
+      'WebSocket',
+      'REST API',
+      'AI Models',
     ],
     links: [
       { label: 'Open Platform', url: 'https://polybot-copytrading.vercel.app/login' },

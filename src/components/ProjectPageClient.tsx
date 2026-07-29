@@ -60,7 +60,7 @@ export default function ProjectPageClient({
                 </span>
               )}
             </div>
-            <p className="mt-2 max-w-2xl text-base leading-relaxed text-gray-500">
+            <p className="mt-2 max-w-2xl text-justify text-base leading-relaxed text-gray-500">
               {content.description}
             </p>
           </div>

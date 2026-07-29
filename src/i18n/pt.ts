@@ -163,7 +163,7 @@ const pt: Translation = {
   polybot: {
     title: 'PolyBot Copy Trading',
     description:
-      'Sistema de copy trading para Polymarket com acompanhamento de posições, execução automática, monitorização em tempo real, gestão com análise e execuções para os mercados de 5-15Min BTC, ETH, SOL em criptomoedas e motor de controle de temperaturas máximas para o mercado de Clima baseado em fontes oficiais, e análise de Surebets em casas de apostas e de mercados preditivos.',
+      'Sistema de copy trading para Polymarket com acompanhamento de posições, execução automática e avaliação de confiança por modelos de IA, monitorização em tempo real, gestão com análise e execuções para os mercados de 5-15Min BTC, ETH, SOL em criptomoedas e motor de controle de temperaturas máximas para o mercado de Clima baseado em fontes oficiais, e análise de Surebets em casas de apostas e de mercados preditivos.',
     badge: 'Plataforma Privada',
     technologies: [
       'Python',
@@ -172,6 +172,10 @@ const pt: Translation = {
       'Fast',
       'Sqlite',
       'Docker',
+      'Telegram Bot',
+      'WebSocket',
+      'API Rest',
+      'Modelos de IA',
     ],
     links: [
       { label: 'Abrir Plataforma', url: 'https://polybot-copytrading.vercel.app/login' },

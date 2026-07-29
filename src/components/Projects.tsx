@@ -57,7 +57,7 @@ export default function Projects() {
                   {item.title}
                 </h3>
 
-                <p className="mt-1 text-sm leading-relaxed text-gray-500">
+                <p className="mt-1 text-justify text-sm leading-relaxed text-gray-500">
                   {item.description}
                 </p>
 
