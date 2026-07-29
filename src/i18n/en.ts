@@ -57,6 +57,7 @@ const en: Translation = {
         ],
         badge: 'Public',
         badgeType: 'public',
+        slug: 'allcripto',
         links: [
           { label: 'Visit Website', url: 'https://allcripto.com' },
           { label: 'Watch Demo', url: 'https://www.youtube.com/playlist?list=PLsFo-9CVHpWKFgC2yFER-n0MD_-bLtU0I' },
@@ -74,8 +75,10 @@ const en: Translation = {
         ],
         badge: 'Private Demo',
         badgeType: 'private',
+        slug: 'polybot',
         links: [
-          { label: 'Private Platform', url: 'https://polybot-copytrading.vercel.app/login' },
+          { label: 'Open Platform', url: 'https://polybot-copytrading.vercel.app/login' },
+          { label: 'Case Study', url: '/projects/polybot' },
         ],
       },
       {
@@ -90,8 +93,10 @@ const en: Translation = {
         ],
         badge: 'Client Dashboard',
         badgeType: 'client',
+        slug: 'trader-dashboard',
         links: [
-          { label: 'Client Dashboard', url: 'https://trader.allcripto.com/dashboard' },
+          { label: 'Open Dashboard', url: 'https://trader.allcripto.com/dashboard' },
+          { label: 'Case Study', url: '/projects/trader-dashboard' },
         ],
       },
     ],
@@ -135,16 +140,8 @@ const en: Translation = {
   },
   allcripto: {
     title: 'AllCripto',
-    overview:
-      'A platform for automated cryptocurrency trading, developed to execute arbitrage strategies and provide monitoring and operations management tools.',
-    features: [
-      'Spot × Futures arbitrage',
-      'Futures × Futures arbitrage',
-      'Exchange API integration',
-      'Real-time dashboard',
-      'Risk management',
-      'Strategy automation',
-    ],
+    description:
+      'Automated cryptocurrency trading platform with arbitrage, exchange integration, real-time dashboards and risk management tools.',
     technologies: [
       'Python',
       'FastAPI',
@@ -154,12 +151,58 @@ const en: Translation = {
       'Docker',
       'WebSockets',
     ],
-    links: {
-      website: 'https://allcripto.com',
-      videos:
-        'https://www.youtube.com/playlist?list=PLsFo-9CVHpWKFgC2yFER-n0MD_-bLtU0I',
-    },
-    backToHome: '← Back to Home',
+    links: [
+      { label: 'Visit Website', url: 'https://allcripto.com' },
+      { label: 'Watch Videos', url: 'https://www.youtube.com/playlist?list=PLsFo-9CVHpWKFgC2yFER-n0MD_-bLtU0I' },
+    ],
+    featuresLabel: 'Features',
+    technologiesLabel: 'Technologies',
+    linksLabel: 'Links',
+    galleryLabel: 'Screenshots',
+    backToHome: '← Back to projects',
+  },
+  polybot: {
+    title: 'PolyBot Copy Trading',
+    description:
+      'Copy trading system for Polymarket with position tracking, automatic execution and real-time monitoring.',
+    badge: 'Private Platform',
+    technologies: [
+      'Python',
+      'React',
+      'FastAPI',
+      'PostgreSQL',
+      'Docker',
+    ],
+    links: [
+      { label: 'Open Platform', url: 'https://polybot-copytrading.vercel.app/login' },
+    ],
+    featuresLabel: 'Features',
+    technologiesLabel: 'Technologies',
+    linksLabel: 'Links',
+    galleryLabel: 'Screenshots',
+    backToHome: '← Back to projects',
+  },
+  traderDashboard: {
+    title: 'Trader Dashboard',
+    description:
+      'Dashboard for operations monitoring, performance metrics, portfolio management and results analysis.',
+    badge: 'Private Platform',
+    technologies: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'FastAPI',
+      'PostgreSQL',
+      'Trading APIs',
+    ],
+    links: [
+      { label: 'Open Dashboard', url: 'https://trader.allcripto.com/dashboard' },
+    ],
+    featuresLabel: 'Features',
+    technologiesLabel: 'Technologies',
+    linksLabel: 'Links',
+    galleryLabel: 'Screenshots',
+    backToHome: '← Back to projects',
   },
 };
 

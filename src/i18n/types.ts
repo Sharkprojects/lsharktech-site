@@ -3,6 +3,19 @@ export interface ProjectLink {
   url: string;
 }
 
+export interface ProjectPageContent {
+  title: string;
+  description: string;
+  badge?: string;
+  technologies: string[];
+  links: ProjectLink[];
+  featuresLabel: string;
+  technologiesLabel: string;
+  linksLabel: string;
+  galleryLabel: string;
+  backToHome: string;
+}
+
 export interface Translation {
   navbar: {
     home: string;
@@ -35,6 +48,7 @@ export interface Translation {
       badge: string;
       badgeType: 'public' | 'private' | 'client';
       links: ProjectLink[];
+      slug: string;
     }>;
   };
   technologies: {
@@ -63,15 +77,7 @@ export interface Translation {
     subtitle: string;
     rights: string;
   };
-  allcripto: {
-    title: string;
-    overview: string;
-    features: string[];
-    technologies: string[];
-    links: {
-      website: string;
-      videos: string;
-    };
-    backToHome: string;
-  };
+  allcripto: ProjectPageContent;
+  polybot: ProjectPageContent;
+  traderDashboard: ProjectPageContent;
 }
