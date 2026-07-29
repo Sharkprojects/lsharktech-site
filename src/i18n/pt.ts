@@ -14,7 +14,7 @@ const pt: Translation = {
     subtitle:
       'Soluções de software de alto desempenho para Trading, Inteligência Artificial e Engenharia de Dados.',
     viewProjects: 'Ver Projetos',
-    contact: 'Contato',
+    contact: 'Entre em contato',
   },
   services: {
     title: 'O Que Construímos',
@@ -91,18 +91,25 @@ const pt: Translation = {
   },
   about: {
     title: 'Engenharia de software que escala.',
-    text: 'Na L Shark Tech, construímos software robusto focado em desempenho, escalabilidade e manutenibilidade. Nossa missão é transformar problemas complexos de negócios em soluções tecnológicas elegantes.',
+    text: 'Fundada em 2023, a L Shark Tech LTDA desenvolve software inteligente focado em Inteligência Artificial, Trading Algorítmico, Automação e Engenharia de Dados. Construímos soluções escaláveis, confiáveis e de alto desempenho para empresas e mercados financeiros.',
   },
   contact: {
-    title: 'Vamos construir algo juntos.',
+    title: 'Vamos construir algo grande juntos.',
+    intro: 'Se você está procurando soluções de IA, sistemas de trading, automação ou engenharia de dados, ficarei feliz em discutir seu projeto.',
+    email: 'leandroshark.tech@gmail.com',
+    emailLabel: 'E-mail',
+    location: 'Brasil',
+    availability: 'Remoto • Disponível Mundialmente',
     button: 'Fale Conosco',
     github: 'GitHub',
     linkedin: 'LinkedIn',
-    email: 'E-mail',
   },
   footer: {
-    tagline: 'Construindo Software Inteligente.',
-    copyright: '© 2026 L Shark Tech.',
+    companyName: 'L Shark Tech LTDA',
+    founded: 'Fundada em 2023',
+    tagline: 'Construindo Software Inteligente',
+    subtitle: 'IA • Trading • Automação • Engenharia de Dados',
+    rights: 'Todos os direitos reservados.',
   },
 };
 

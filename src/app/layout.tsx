@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'L Shark Tech | Intelligent Software',
   description:
-    'L Shark Tech develops intelligent software for Trading, AI, Data Engineering and Automation.',
+    'L Shark Tech LTDA is a Brazilian software engineering company founded in 2023, specializing in Artificial Intelligence, Trading Systems, Automation and Data Engineering.',
 };
 
 export default function RootLayout({

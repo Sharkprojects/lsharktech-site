@@ -32,12 +32,12 @@ export default function Hero() {
           >
             {t.hero.viewProjects}
           </button>
-          <button
-            onClick={() => scrollTo('contact')}
+          <a
+            href="mailto:leandroshark.tech@gmail.com"
             className="rounded-lg border border-gray-200 bg-white px-6 py-3 text-sm font-medium text-gray-700 transition-all hover:border-gray-300 hover:bg-gray-50"
           >
             {t.hero.contact}
-          </button>
+          </a>
         </div>
       </div>
 

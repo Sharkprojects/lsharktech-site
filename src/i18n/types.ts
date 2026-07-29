@@ -39,13 +39,20 @@ export interface Translation {
   };
   contact: {
     title: string;
+    intro: string;
+    email: string;
+    emailLabel: string;
+    location: string;
+    availability: string;
     button: string;
     github: string;
     linkedin: string;
-    email: string;
   };
   footer: {
+    companyName: string;
+    founded: string;
     tagline: string;
-    copyright: string;
+    subtitle: string;
+    rights: string;
   };
 }

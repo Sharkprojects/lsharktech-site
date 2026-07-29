@@ -51,13 +51,12 @@ export default function Navbar() {
       <div className="flex items-center gap-4">
         <LanguageSwitcher />
 
-        <button
-          type="button"
-          onClick={() => scrollTo("contact")}
+        <a
+          href="mailto:leandroshark.tech@gmail.com"
           className="hidden rounded-lg bg-blue-700 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-800 sm:inline-block"
         >
           {t.navbar.getInTouch}
-        </button>
+        </a>
       </div>
     </nav>
   </header>

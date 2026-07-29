@@ -12,7 +12,7 @@ export default function About() {
           <h2 className="text-3xl font-semibold tracking-tight text-gray-900">
             {t.about.title}
           </h2>
-          <p className="mt-6 text-lg leading-relaxed text-gray-500">
+          <p className="mt-6 text-base leading-relaxed text-gray-500">
             {t.about.text}
           </p>
         </div>
