@@ -24,7 +24,7 @@ export default function Navbar() {
           className="flex items-center gap-2"
         >
           <Image
-            src="/brand/logo-symbol.svg"
+            src="/brand/logo-horizontal.svg"
             alt="L Shark Tech"
             width={28}
             height={28}
