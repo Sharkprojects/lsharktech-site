@@ -67,7 +67,7 @@ const pt: Translation = {
       {
         title: 'PolyBot Copy Trading',
         description:
-          'Plataforma de copy trading assistida por IA para mercados de previsão.',
+          'Plataforma de copy trading assistida por IA para mercados de previsão, com gestão com análise e execuções para os mercados de 5-15Min BTC, ETH, SOL em criptomoedas e motor de controle de temperaturas máximas para o mercado de Clima baseado em fontes oficiais, e análise de Surebets em casas de apostas e de mercados preditivos.',
         features: [
           'Integração Polymarket',
           'Gerenciamento de portfólio',
@@ -84,7 +84,7 @@ const pt: Translation = {
       {
         title: 'Trader Dashboard',
         description:
-          'Dashboard profissional de trading para análises de portfólio e gestão de risco.',
+          'Dashboard profissional de trading esportivo com insights ao vivo sobre os mais variados mercados e eventos monitorados.',
         features: [
           'Análises de portfólio',
           'Gerenciamento de risco',
@@ -143,13 +143,12 @@ const pt: Translation = {
     description:
       'Plataforma de negociação automatizada de criptomoedas com arbitragem, integração com exchanges, dashboards em tempo real e ferramentas de gestão de risco.',
     technologies: [
-      'Python',
-      'FastAPI',
-      'React',
-      'PostgreSQL',
-      'Redis',
-      'Docker',
+      'Go',
+      'Fyne',
+      'SQLite',
       'WebSockets',
+      'API & DOM Bot',
+      'Telegram Bot',
     ],
     links: [
       { label: 'Visitar Site', url: 'https://allcripto.com' },
@@ -164,13 +163,14 @@ const pt: Translation = {
   polybot: {
     title: 'PolyBot Copy Trading',
     description:
-      'Sistema de copy trading para Polymarket com acompanhamento de posições, execução automática e monitorização em tempo real.',
+      'Sistema de copy trading para Polymarket com acompanhamento de posições, execução automática, monitorização em tempo real, gestão com análise e execuções para os mercados de 5-15Min BTC, ETH, SOL em criptomoedas e motor de controle de temperaturas máximas para o mercado de Clima baseado em fontes oficiais, e análise de Surebets em casas de apostas e de mercados preditivos.',
     badge: 'Plataforma Privada',
     technologies: [
       'Python',
+      'Go',
       'React',
-      'FastAPI',
-      'PostgreSQL',
+      'Fast',
+      'Sqlite',
       'Docker',
     ],
     links: [
@@ -185,14 +185,15 @@ const pt: Translation = {
   traderDashboard: {
     title: 'Trader Dashboard',
     description:
-      'Dashboard para monitorização de operações, performance, métricas, gestão de portfólio e análise de resultados.',
+      'Dashboard para monitorização de operações de trading esportivo com insights ao vivo sobre os mais variados mercados e eventos monitorados, incluindo métricas de performance, gestão de portfólio e análise de resultados.',
     badge: 'Plataforma Privada',
     technologies: [
       'React',
       'Next.js',
       'TypeScript',
       'FastAPI',
-      'PostgreSQL',
+      'SQLite Cloud',
+      'Telegram Bot',
       'Trading APIs',
     ],
     links: [

@@ -1,11 +1,13 @@
 'use client';
 
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ExternalLink, Play } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import ImageLightbox from '@/components/ImageLightbox';
 import type { ProjectPageContent } from '@/i18n/types';
 
 function LinkIcon({ url }: { url: string }) {
@@ -33,6 +35,7 @@ export default function ProjectPageClient({
   const content = t[key] as unknown as ProjectPageContent;
   const heroImage = images[0];
   const galleryImages = images.slice(1);
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
 
   return (
     <>
@@ -78,7 +81,10 @@ export default function ProjectPageClient({
           </div>
 
           {heroImage && (
-            <div className="mt-10 overflow-hidden rounded-xl border border-gray-100 shadow-sm">
+            <button
+              onClick={() => setLightboxSrc(heroImage)}
+              className="mt-10 block w-full overflow-hidden rounded-xl border border-gray-100 shadow-sm transition-opacity hover:opacity-90"
+            >
               <Image
                 src={heroImage}
                 alt={content.title}
@@ -87,7 +93,7 @@ export default function ProjectPageClient({
                 className="h-auto w-full object-cover"
                 priority
               />
-            </div>
+            </button>
           )}
 
           <section className="mt-16">
@@ -113,9 +119,10 @@ export default function ProjectPageClient({
               </h2>
               <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 {galleryImages.map((src) => (
-                  <div
+                  <button
                     key={src}
-                    className="overflow-hidden rounded-xl border border-gray-100 shadow-sm"
+                    onClick={() => setLightboxSrc(src)}
+                    className="overflow-hidden rounded-xl border border-gray-100 shadow-sm transition-opacity hover:opacity-90"
                   >
                     <Image
                       src={src}
@@ -125,7 +132,7 @@ export default function ProjectPageClient({
                       className="h-auto w-full object-cover"
                       loading="lazy"
                     />
-                  </div>
+                  </button>
                 ))}
               </div>
             </section>
@@ -143,6 +150,14 @@ export default function ProjectPageClient({
         </div>
       </main>
       <Footer />
+
+      {lightboxSrc && (
+        <ImageLightbox
+          src={lightboxSrc}
+          alt={content.title}
+          onClose={() => setLightboxSrc(null)}
+        />
+      )}
     </>
   );
 }

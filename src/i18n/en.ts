@@ -67,7 +67,7 @@ const en: Translation = {
       {
         title: 'PolyBot Copy Trading',
         description:
-          'AI-assisted copy trading platform for prediction markets.',
+          'AI-assisted copy trading platform for prediction markets, with analysis and execution management for 5-15Min BTC, ETH, SOL crypto markets, a temperature control engine for Climate markets based on official sources, and Surebet analysis across bookmakers and prediction markets.',
         features: [
           'Polymarket integration',
           'Portfolio management',
@@ -84,7 +84,7 @@ const en: Translation = {
       {
         title: 'Trader Dashboard',
         description:
-          'Professional trading dashboard for portfolio analytics and risk management.',
+          'Professional sports trading dashboard with live insights across multiple markets and monitored events.',
         features: [
           'Portfolio analytics',
           'Risk management',
@@ -143,13 +143,12 @@ const en: Translation = {
     description:
       'Automated cryptocurrency trading platform with arbitrage, exchange integration, real-time dashboards and risk management tools.',
     technologies: [
-      'Python',
-      'FastAPI',
-      'React',
-      'PostgreSQL',
-      'Redis',
-      'Docker',
+      'Go',
+      'Fyne',
+      'SQLite',
       'WebSockets',
+      'API & DOM Bot',
+      'Telegram Bot',
     ],
     links: [
       { label: 'Visit Website', url: 'https://allcripto.com' },
@@ -164,13 +163,14 @@ const en: Translation = {
   polybot: {
     title: 'PolyBot Copy Trading',
     description:
-      'Copy trading system for Polymarket with position tracking, automatic execution and real-time monitoring.',
+      'Copy trading system for Polymarket with position tracking, automatic execution, real-time monitoring, analysis and execution management for 5-15Min BTC, ETH, SOL crypto markets, a temperature control engine for Climate markets based on official sources, and Surebet analysis across bookmakers and prediction markets.',
     badge: 'Private Platform',
     technologies: [
       'Python',
+      'Go',
       'React',
-      'FastAPI',
-      'PostgreSQL',
+      'Fast',
+      'Sqlite',
       'Docker',
     ],
     links: [
@@ -185,14 +185,15 @@ const en: Translation = {
   traderDashboard: {
     title: 'Trader Dashboard',
     description:
-      'Dashboard for operations monitoring, performance metrics, portfolio management and results analysis.',
+      'Sports trading dashboard with live insights across multiple markets and monitored events, featuring performance metrics, portfolio management and results analysis.',
     badge: 'Private Platform',
     technologies: [
       'React',
       'Next.js',
       'TypeScript',
       'FastAPI',
-      'PostgreSQL',
+      'SQLite Cloud',
+      'Telegram Bot',
       'Trading APIs',
     ],
     links: [
