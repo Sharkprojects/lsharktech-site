@@ -11,10 +11,10 @@ export default function About() {
       <div className="mx-auto max-w-6xl px-6 py-24">
         <div className="mx-auto max-w-2xl text-center">
           <Image
-            src="/brand/logo-vertical.svg"
+            src="/brand/logo-dark.svg"
             alt="L Shark Tech"
-            width={80}
-            height={80}
+            width={240}
+            height={240}
             className="mx-auto mb-6"
           />
           <h2 className="text-3xl font-semibold tracking-tight text-gray-900">
