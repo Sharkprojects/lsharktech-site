@@ -63,6 +63,10 @@ export default function Contact() {
                 </a>
               ))}
             </div>
+
+            <p className="text-sm leading-relaxed text-gray-400">
+              Available for remote consulting and software development. Contact via email, Telegram or LinkedIn for project inquiries.
+            </p>
           </div>
 
           <div className="mt-8 flex items-center justify-center gap-1.5 text-sm text-gray-400">
