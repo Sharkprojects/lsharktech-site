@@ -14,9 +14,50 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'L Shark Tech | Intelligent Software',
+  metadataBase: new URL('https://lsharktech.pages.dev'),
+
+  title: {
+    default: 'L Shark Tech | Intelligent Software',
+    template: '%s | L Shark Tech',
+  },
+
   description:
     'L Shark Tech LTDA is a Brazilian software engineering company founded in 2023, specializing in Artificial Intelligence, Trading Systems, Automation and Data Engineering.',
+
+  alternates: {
+    canonical: '/',
+  },
+
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: '/',
+    siteName: 'L Shark Tech',
+    title: 'L Shark Tech | Intelligent Software',
+    description:
+      'Artificial Intelligence, trading systems, automation and data engineering solutions.',
+    images: [
+      {
+        url: '/opengraph-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'L Shark Tech – Intelligent Software',
+      },
+    ],
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'L Shark Tech | Intelligent Software',
+    description:
+      'Artificial Intelligence, trading systems, automation and data engineering solutions.',
+    images: ['/opengraph-image.png'],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
