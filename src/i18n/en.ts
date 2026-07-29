@@ -106,7 +106,7 @@ const en: Translation = {
     categories: [
       {
         name: 'Languages',
-        items: ['Python', 'Go', 'TypeScript', 'JavaScript', 'HTML5', 'CSS'],
+        items: ['Python', 'Go', 'TypeScript', 'JavaScript', 'HTML5'],
       },
       {
         name: 'Frontend',
@@ -118,19 +118,23 @@ const en: Translation = {
       },
       {
         name: 'Databases',
-        items: ['SQLite', 'MySQL', 'Oracle Cloud DB'],
+        items: ['SQLite', 'MySQL', 'Oracle Cloud Infrastructure', 'Redis'],
       },
       {
         name: 'AI',
-        items: ['LLM Integration', 'AI Agents', 'Artificial Intelligence'],
+        items: ['LLM Integration', 'Prompt Engineering', 'AI Agents', 'Artificial Intelligence'],
       },
       {
         name: 'Cloud & DevOps',
         items: ['Docker', 'AWS', 'Cloudflare', 'GitHub Actions'],
       },
       {
+        name: 'Analytics & BI',
+        items: ['Metabase', 'PowerBI', 'Google Analytics'],
+      },
+      {
         name: 'Specialties',
-        items: ['Task Scheduling', 'Real-Time Systems', 'Telegram, Discord & Slack Bot'],
+        items: ['Algorithmic Trading', 'Automation', 'Bot Development', 'Task Scheduling', 'Real-Time Systems', 'Telegram, Discord & Slack Bot'],
       },
     ],
   },
