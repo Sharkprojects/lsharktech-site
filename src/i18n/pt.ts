@@ -43,34 +43,56 @@ const pt: Translation = {
   },
   projects: {
     title: 'Projetos em Destaque',
+    note: 'Alguns projetos são proprietários e estão disponíveis apenas para clientes. Acesso de demonstração pode ser fornecido mediante solicitação.',
     items: [
       {
-        title: 'Crypto Arbitrage Engine',
+        title: 'AllCripto',
         description:
-          'Detecção de arbitragem em tempo real em múltiplas exchanges de criptomoedas com execução automatizada.',
-        badge: 'Projeto Privado',
-        learnMore: 'Saiba Mais',
+          'Plataforma automatizada de arbitragem de criptomoedas.',
+        features: [
+          'Arbitragem Spot × Futuros',
+          'Arbitragem Futuros × Futuros',
+          'Integração de API',
+          'Monitoramento em tempo real',
+        ],
+        badge: 'Público',
+        badgeType: 'public',
+        links: [
+          { label: 'Visitar Site', url: 'https://allcripto.com' },
+          { label: 'Ver Demonstração', url: 'https://www.youtube.com/playlist?list=PLsFo-9CVHpWKFgC2yFER-n0MD_-bLtU0I' },
+          { label: 'Estudo de Caso', url: '/projects/allcripto' },
+        ],
       },
       {
-        title: 'Sports Trading Platform',
+        title: 'PolyBot Copy Trading',
         description:
-          'Plataforma de trading de alta frequência para mercados de apostas esportivas com gerenciamento avançado de risco.',
-        badge: 'Projeto Privado',
-        learnMore: 'Saiba Mais',
+          'Plataforma de copy trading assistida por IA para mercados de previsão.',
+        features: [
+          'Integração Polymarket',
+          'Gerenciamento de portfólio',
+          'Execução em tempo real',
+        ],
+        badge: 'Demonstração Privada',
+        badgeType: 'private',
+        links: [
+          { label: 'Plataforma Privada', url: 'https://polybot-copytrading.vercel.app/login' },
+        ],
       },
       {
-        title: 'Polymarket Automation',
+        title: 'Trader Dashboard',
         description:
-          'Estratégias automatizadas para mercados de previsão com análise de dados e execução em tempo real.',
-        badge: 'Projeto Privado',
-        learnMore: 'Saiba Mais',
-      },
-      {
-        title: 'Business Intelligence Platform',
-        description:
-          'Painel de análises personalizado com processamento de dados em tempo real e visualizações interativas.',
-        badge: 'Projeto Privado',
-        learnMore: 'Saiba Mais',
+          'Dashboard profissional de trading para análises de portfólio e gestão de risco.',
+        features: [
+          'Análises de portfólio',
+          'Gerenciamento de risco',
+          'Métricas de performance',
+          'Painel de trading',
+        ],
+        badge: 'Dashboard de Cliente',
+        badgeType: 'client',
+        links: [
+          { label: 'Dashboard de Cliente', url: 'https://trader.allcripto.com/dashboard' },
+        ],
       },
     ],
   },
@@ -110,6 +132,34 @@ const pt: Translation = {
     tagline: 'Construindo Software Inteligente',
     subtitle: 'IA • Trading • Automação • Engenharia de Dados',
     rights: 'Todos os direitos reservados.',
+  },
+  allcripto: {
+    title: 'AllCripto',
+    overview:
+      'Uma plataforma para negociação automatizada de criptomoedas, desenvolvida para executar estratégias de arbitragem e fornecer ferramentas de monitorização e gestão de operações.',
+    features: [
+      'Arbitragem Spot × Futuros',
+      'Arbitragem Futuros × Futuros',
+      'Integração com APIs de exchanges',
+      'Dashboard em tempo real',
+      'Gestão de risco',
+      'Automação de estratégias',
+    ],
+    technologies: [
+      'Python',
+      'FastAPI',
+      'React',
+      'PostgreSQL',
+      'Redis',
+      'Docker',
+      'WebSockets',
+    ],
+    links: {
+      website: 'https://allcripto.com',
+      videos:
+        'https://www.youtube.com/playlist?list=PLsFo-9CVHpWKFgC2yFER-n0MD_-bLtU0I',
+    },
+    backToHome: '← Voltar ao Início',
   },
 };
 

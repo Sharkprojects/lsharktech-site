@@ -1,3 +1,8 @@
+export interface ProjectLink {
+  label: string;
+  url: string;
+}
+
 export interface Translation {
   navbar: {
     home: string;
@@ -22,11 +27,14 @@ export interface Translation {
   };
   projects: {
     title: string;
+    note: string;
     items: Array<{
       title: string;
       description: string;
+      features: string[];
       badge: string;
-      learnMore: string;
+      badgeType: 'public' | 'private' | 'client';
+      links: ProjectLink[];
     }>;
   };
   technologies: {
@@ -54,5 +62,16 @@ export interface Translation {
     tagline: string;
     subtitle: string;
     rights: string;
+  };
+  allcripto: {
+    title: string;
+    overview: string;
+    features: string[];
+    technologies: string[];
+    links: {
+      website: string;
+      videos: string;
+    };
+    backToHome: string;
   };
 }
