@@ -144,7 +144,7 @@ const en: Translation = {
   },
   contact: {
     title: "Let's build something great together.",
-    intro: "Whether you're looking for AI solutions, trading systems, automation, or data engineering, I'd be happy to discuss your project.",
+    intro: 'L Shark Tech develops intelligent software for Artificial Intelligence, algorithmic trading, automation, data engineering and high-performance web applications.',
     email: 'leandroshark.tech@gmail.com',
     emailLabel: 'Email',
     location: 'Brazil',
