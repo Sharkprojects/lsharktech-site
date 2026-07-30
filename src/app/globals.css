@@ -38,7 +38,7 @@ body {
 @media print {
   @page {
     size: A4;
-    margin: 0;
+    margin: 8mm;
   }
 
   * {
@@ -50,12 +50,27 @@ body {
     display: none !important;
   }
 
+  html,
+  body {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  body {
+    background: #09090b !important;
+    color: #fff !important;
+    font-size: 8.5pt !important;
+    line-height: 1.3 !important;
+  }
+
   .print-section {
     page-break-after: always;
     break-after: page;
-    min-height: auto !important;
-    padding-top: 1.5rem !important;
-    padding-bottom: 1.5rem !important;
+    min-height: 0 !important;
+    height: auto !important;
+    max-height: 277mm !important;
+    overflow: visible !important;
+    padding: 0 !important;
   }
 
   .print-section:last-child {
@@ -63,13 +78,64 @@ body {
     break-after: auto;
   }
 
-  body {
-    background: #09090b !important;
-    color: #fff !important;
+  .print-section h1 {
+    font-size: 14pt !important;
+    line-height: 1.2 !important;
   }
 
-  .break-inside-avoid {
+  .print-section h2 {
+    font-size: 8pt !important;
+    line-height: 1.2 !important;
+  }
+
+  .print-section h3 {
+    font-size: 8.5pt !important;
+  }
+
+  .print-section p,
+  .print-section li,
+  .print-section a,
+  .print-section span:not([aria-current]) {
+    font-size: 8pt !important;
+    line-height: 1.3 !important;
+  }
+
+  .print-section a {
+    text-decoration: none !important;
+  }
+
+  .print-section [class*="gap-"] {
+    gap: 2pt !important;
+  }
+
+  .print-section [class*="mt-"],
+  .print-section [class*="my-"] {
+    margin-top: 3pt !important;
+  }
+
+  .print-section .break-inside-avoid,
+  .print-section [class*="rounded"] {
     break-inside: avoid;
     page-break-inside: avoid;
+    border-width: 0.5pt !important;
+  }
+
+  .print-section [class*="p-"] {
+    padding: 3pt !important;
+  }
+
+  .print-section [class*="px-"] {
+    padding-left: 12pt !important;
+    padding-right: 12pt !important;
+  }
+
+  .print-section [class*="py-"] {
+    padding-top: 6pt !important;
+    padding-bottom: 6pt !important;
+  }
+
+  .print-section img {
+    height: 18pt !important;
+    width: auto !important;
   }
 }

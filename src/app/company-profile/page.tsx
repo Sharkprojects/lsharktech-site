@@ -72,7 +72,7 @@ export default function CompanyProfilePage() {
               })}
             </div>
 
-            <DownloadButton label={companyProfileContent.pt.downloadButton} />
+            <DownloadButton />
           </div>
         </nav>
       </header>
