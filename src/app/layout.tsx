@@ -21,6 +21,12 @@ export const metadata: Metadata = {
     template: '%s | L Shark Tech',
   },
 
+  authors: [
+    {
+      name: 'L Shark Tech LTDA',
+    },
+  ],
+
   description:
     'L Shark Tech LTDA is a Brazilian software engineering company founded in 2023, specializing in Artificial Intelligence, Trading Systems, Automation and Data Engineering.',
 
@@ -35,7 +41,7 @@ export const metadata: Metadata = {
     siteName: 'L Shark Tech',
     title: 'L Shark Tech | Intelligent Software',
     description:
-      'Artificial Intelligence, trading systems, automation and data engineering solutions.',
+      'L Shark Tech develops intelligent software for Artificial Intelligence, algorithmic trading, automation, data engineering and high-performance web applications.',
     images: [
       {
         url: '/opengraph-image.png',
@@ -50,7 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'L Shark Tech | Intelligent Software',
     description:
-      'Artificial Intelligence, trading systems, automation and data engineering solutions.',
+      'L Shark Tech develops intelligent software for Artificial Intelligence, algorithmic trading, automation, data engineering and high-performance web applications.',
     images: ['/opengraph-image.png'],
   },
 
