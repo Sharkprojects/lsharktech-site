@@ -9,9 +9,9 @@ function LanguageSection({ content }: LanguageSectionProps) {
   return (
     <section
       id={content.id}
-      className="print-section mx-auto min-h-dvh w-full max-w-6xl scroll-mt-14 px-6 py-5 max-md:px-4 md:py-6"
+      className="print-section mx-auto min-h-dvh w-full max-w-6xl scroll-mt-14 px-6 py-5 max-md:px-4 md:py-6 print:max-w-none"
     >
-      <div className="mx-auto flex max-w-4xl flex-col gap-3 md:gap-4">
+      <div className="mx-auto flex max-w-4xl flex-col gap-3 md:gap-4 print:max-w-none">
         {/* Brand bar: logo + company + language links */}
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -199,11 +199,9 @@ function ProjectCard({ title, description, link }: { title: string; description:
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-1 inline-flex items-center gap-0.5 text-[10px] font-medium text-blue-400 transition-colors hover:text-blue-300 md:text-[11px]"
+        className="mt-1 inline-flex max-w-full items-center gap-0.5 truncate text-[10px] font-medium text-blue-400 transition-colors hover:text-blue-300 md:text-[11px]"
       >
-        {link.replace('https://', '').length > 25
-          ? link.replace('https://', '').slice(0, 25) + '…'
-          : link.replace('https://', '')}
+        {link.replace('https://', '')}
       </a>
     </div>
   );

@@ -37,8 +37,8 @@ body {
 
 @media print {
   @page {
-    size: A4;
-    margin: 8mm;
+    size: A4 landscape;
+    margin: 0;
   }
 
   * {
@@ -59,8 +59,8 @@ body {
   body {
     background: #09090b !important;
     color: #fff !important;
-    font-size: 8.5pt !important;
-    line-height: 1.3 !important;
+    font-size: 8pt !important;
+    line-height: 1.25 !important;
   }
 
   .print-section {
@@ -68,9 +68,10 @@ body {
     break-after: page;
     min-height: 0 !important;
     height: auto !important;
-    max-height: 277mm !important;
+    max-width: none !important;
+    max-height: 210mm !important;
     overflow: visible !important;
-    padding: 0 !important;
+    padding: 10mm 12mm !important;
   }
 
   .print-section:last-child {
@@ -78,30 +79,46 @@ body {
     break-after: auto;
   }
 
+  .print-section > div {
+    max-width: none !important;
+    gap: 4pt !important;
+  }
+
   .print-section h1 {
-    font-size: 14pt !important;
-    line-height: 1.2 !important;
+    font-size: 16pt !important;
+    line-height: 1.15 !important;
   }
 
   .print-section h2 {
-    font-size: 8pt !important;
+    font-size: 7.5pt !important;
     line-height: 1.2 !important;
   }
 
   .print-section h3 {
-    font-size: 8.5pt !important;
+    font-size: 8pt !important;
   }
 
   .print-section p,
-  .print-section li,
-  .print-section a,
-  .print-section span:not([aria-current]) {
-    font-size: 8pt !important;
-    line-height: 1.3 !important;
+  .print-section li {
+    font-size: 7.5pt !important;
+    line-height: 1.25 !important;
   }
 
   .print-section a {
+    font-size: 7.5pt !important;
+    color: #60a5fa !important;
+    text-decoration: underline !important;
+    text-underline-offset: 1pt !important;
+    text-decoration-thickness: 0.4pt !important;
+  }
+
+  .print-section a[href^="#"] {
+    color: #a1a1aa !important;
     text-decoration: none !important;
+  }
+
+  .print-section span:not([aria-current]) {
+    font-size: 7.5pt !important;
   }
 
   .print-section [class*="gap-"] {
@@ -110,32 +127,55 @@ body {
 
   .print-section [class*="mt-"],
   .print-section [class*="my-"] {
-    margin-top: 3pt !important;
+    margin-top: 2pt !important;
+  }
+
+  .print-section [class*="p-"] {
+    padding: 2pt !important;
+  }
+
+  .print-section [class*="px-"] {
+    padding-left: 8pt !important;
+    padding-right: 8pt !important;
+  }
+
+  .print-section [class*="py-"] {
+    padding-top: 4pt !important;
+    padding-bottom: 4pt !important;
+  }
+
+  .print-section [class*="grid"] {
+    gap: 2pt !important;
   }
 
   .print-section .break-inside-avoid,
   .print-section [class*="rounded"] {
     break-inside: avoid;
     page-break-inside: avoid;
-    border-width: 0.5pt !important;
+    border-width: 0.4pt !important;
   }
 
-  .print-section [class*="p-"] {
-    padding: 3pt !important;
+  .print-section [class*="sm:grid-cols-2"] {
+    grid-template-columns: repeat(4, 1fr) !important;
   }
 
-  .print-section [class*="px-"] {
-    padding-left: 12pt !important;
-    padding-right: 12pt !important;
+  .print-section [class*="sm:grid-cols-3"] {
+    grid-template-columns: repeat(3, 1fr) !important;
   }
 
-  .print-section [class*="py-"] {
-    padding-top: 6pt !important;
-    padding-bottom: 6pt !important;
+  .print-section [class*="sm:grid-cols-2"] + ul,
+  .print-section [class*="sm:grid-cols-2"]:is(ul) {
+    grid-template-columns: repeat(3, 1fr) !important;
   }
 
   .print-section img {
-    height: 18pt !important;
+    height: 16pt !important;
     width: auto !important;
+  }
+
+  .print-section .truncate {
+    overflow: visible !important;
+    text-overflow: clip !important;
+    white-space: normal !important;
   }
 }
