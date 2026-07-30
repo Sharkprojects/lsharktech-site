@@ -51,7 +51,7 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       'Transformamos processos manuais e desafios técnicos em soluções inteligentes, automatizadas e preparadas para produção.',
     about:
       'A L Shark Tech desenvolve softwares inteligentes para Inteligência Artificial, automação, engenharia de dados, sistemas de trading, APIs e aplicações web de alta performance. Ajudamos empresas a reduzir tarefas repetitivas, integrar sistemas, organizar dados e implementar soluções tecnológicas sob medida.',
-    servicesTitle: 'O que podemos fazer pela sua empresa',
+    servicesTitle: 'O que podemos fazer por você ou pela sua empresa',
     services: [
       {
         title: 'Automação de Processos',
@@ -136,7 +136,7 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       'We transform manual processes and technical challenges into intelligent, automated and production-ready solutions.',
     about:
       'L Shark Tech develops intelligent software for Artificial Intelligence, automation, data engineering, trading systems, APIs and high-performance web applications. We help companies reduce repetitive work, integrate systems, organize data and implement custom technology solutions.',
-    servicesTitle: 'What We Can Build for Your Business',
+    servicesTitle: 'What we can do for you or your business',
     services: [
       {
         title: 'Process Automation',
@@ -221,7 +221,7 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       'Transformamos procesos manuales y desafíos técnicos en soluciones inteligentes, automatizadas y preparadas para producción.',
     about:
       'L Shark Tech desarrolla software inteligente para Inteligencia Artificial, automatización, ingeniería de datos, sistemas de trading, APIs y aplicaciones web de alto rendimiento. Ayudamos a las empresas a reducir tareas repetitivas, integrar sistemas, organizar datos e implementar soluciones tecnológicas personalizadas.',
-    servicesTitle: 'Lo que Podemos Desarrollar para su Empresa',
+    servicesTitle: 'Lo que podemos hacer por usted o su empresa',
     services: [
       {
         title: 'Automatización de Procesos',
