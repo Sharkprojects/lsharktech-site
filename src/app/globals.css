@@ -114,17 +114,6 @@ body {
     line-height: 1.4 !important;
   }
 
-  .print-section a {
-    color: #93c5fd !important;
-    text-decoration: underline !important;
-  }
-
-  .print-section a[href^="#"],
-  .print-section a[aria-current] {
-    color: #a1a1aa !important;
-    text-decoration: none !important;
-  }
-
   .print-section footer p {
     font-size: 8pt !important;
   }
