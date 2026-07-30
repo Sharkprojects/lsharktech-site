@@ -74,7 +74,7 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       {
         title: 'AllCripto',
         description:
-          'Plataforma de análise e arbitragem de criptomoedas com integração a múltiplas exchanges.',
+          'Plataforma de arbitragem de criptomoedas com integração a múltiplas exchanges, monitoramento de mercado e identificação de oportunidades.',
         link: 'https://allcripto.com',
       },
       {
@@ -159,7 +159,7 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       {
         title: 'AllCripto',
         description:
-          'Cryptocurrency analysis and arbitrage platform with multiple exchange integrations.',
+          'Cryptocurrency arbitrage platform with multiple exchange integrations, market monitoring, and opportunity detection.',
         link: 'https://allcripto.com',
       },
       {
@@ -193,10 +193,10 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       'Experience with real systems.',
       'Custom solutions.',
       'Direct communication.',
-      'Active CNPJ and invoice issuance.',
+      'Registered Brazilian company with invoice issuance.',
     ],
     ctaText:
-      'Do you have a manual process, missing integration or automation challenge?',
+      'Do you have a manual process, a missing integration, or an automation challenge?',
     ctaDescription: 'Request an initial assessment.',
     ctaButton: 'Request assessment',
     ctaMailto:
@@ -244,7 +244,7 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       {
         title: 'AllCripto',
         description:
-          'Plataforma de análisis y arbitraje de criptomonedas con integración a múltiples exchanges.',
+          'Plataforma de arbitraje de criptomonedas con integración a múltiples exchanges, monitoreo del mercado y detección de oportunidades.',
         link: 'https://allcripto.com',
       },
       {
@@ -278,7 +278,7 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       'Experiencia en sistemas reales.',
       'Soluciones personalizadas.',
       'Comunicación directa.',
-      'CNPJ activo y emisión de factura.',
+      'Empresa brasileña registrada con emisión de factura.',
     ],
     ctaText:
       '¿Tiene un proceso manual, una integración pendiente o una necesidad de automatización?',
