@@ -199,7 +199,7 @@ function ProjectCard({ title, description, link }: { title: string; description:
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-1 inline-flex max-w-full items-center gap-0.5 truncate text-[10px] font-medium text-blue-400 transition-colors hover:text-blue-300 md:text-[11px]"
+        className="mt-1 inline-flex items-center gap-0.5 text-[10px] font-medium text-blue-400 transition-colors hover:text-blue-300 md:text-[11px]"
       >
         {link.replace('https://', '')}
       </a>
