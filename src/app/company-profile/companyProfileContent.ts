@@ -30,12 +30,14 @@ export interface LanguageContent {
   ctaButton: string;
   ctaMailto: string;
   email: string;
+  website: string;
+  linkedin: string;
   footer: {
     companyName: string;
     founded: string;
-    tagline: string;
   };
   downloadButton: string;
+  projectLinkLabel: string;
 }
 
 export const companyProfileContent: Record<string, LanguageContent> = {
@@ -48,28 +50,23 @@ export const companyProfileContent: Record<string, LanguageContent> = {
     subtitle:
       'Transformamos processos manuais e desafios técnicos em soluções inteligentes, automatizadas e preparadas para produção.',
     about:
-      'A L Shark Tech desenvolve softwares inteligentes para Inteligência Artificial, automação, engenharia de dados, sistemas de trading, APIs e aplicações web de alta performance.\n\nAjudamos empresas a reduzir tarefas repetitivas, integrar sistemas, organizar dados e implementar soluções tecnológicas sob medida.',
+      'A L Shark Tech desenvolve softwares inteligentes para Inteligência Artificial, automação, engenharia de dados, sistemas de trading, APIs e aplicações web de alta performance. Ajudamos empresas a reduzir tarefas repetitivas, integrar sistemas, organizar dados e implementar soluções tecnológicas sob medida.',
     servicesTitle: 'O que podemos fazer pela sua empresa',
     services: [
       {
         title: 'Automação de Processos',
         description:
-          'Automação de tarefas manuais, planilhas, relatórios, processamento de dados, geração de documentos e rotinas operacionais.',
+          'Automação de tarefas manuais, planilhas, relatórios, processamento de dados e rotinas operacionais.',
       },
       {
         title: 'Inteligência Artificial',
         description:
-          'Assistentes de IA, integração com modelos de linguagem, agentes inteligentes, análise de documentos e automação com IA.',
+          'Assistentes de IA, integração com modelos de linguagem, agentes inteligentes e análise de documentos.',
       },
       {
-        title: 'APIs e Integrações',
+        title: 'APIs, Dados e Integrações',
         description:
-          'Desenvolvimento de APIs com Python e FastAPI, integrações entre sistemas, webhooks, autenticação e processamento em tempo real.',
-      },
-      {
-        title: 'Engenharia de Dados e Dashboards',
-        description:
-          'Coleta, transformação e organização de dados, dashboards, indicadores, relatórios automatizados e visualizações de negócio.',
+          'APIs, integrações entre sistemas, engenharia de dados, dashboards e automação em tempo real.',
       },
     ],
     projectsTitle: 'Projetos selecionados',
@@ -77,65 +74,57 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       {
         title: 'AllCripto',
         description:
-          'Plataforma de análise e arbitragem de criptomoedas, com integração a múltiplas exchanges, monitoramento de mercado e identificação de oportunidades.',
+          'Plataforma de análise e arbitragem de criptomoedas com integração a múltiplas exchanges.',
         link: 'https://allcripto.com',
       },
       {
         title: 'PolyBot',
         description:
-          'Sistema baseado em Inteligência Artificial para análise e automação de operações em mercados de previsão.',
+          'Sistema baseado em IA para análise e automação de operações em mercados de previsão.',
         link: 'https://lsharktech.pages.dev/projects/polybot',
       },
       {
         title: 'Trader Dashboard',
         description:
-          'Dashboard para monitoramento de trading, métricas, posições, resultados e dados de mercado em tempo real.',
+          'Dashboard para monitoramento de trading, métricas e dados de mercado em tempo real.',
         link: 'https://lsharktech.pages.dev/projects/trader-dashboard',
       },
     ],
     technologiesTitle: 'Tecnologias',
     technologies: [
       'Python',
+      'FastAPI',
       'Go',
       'TypeScript',
-      'FastAPI',
       'Next.js',
-      'React',
       'Docker',
       'Redis',
       'MySQL',
-      'REST APIs',
-      'WebSockets',
       'Cloudflare',
-      'AWS',
-      'Inteligência Artificial',
-      'LLMs',
-      'Automação',
-      'Engenharia de Dados',
+      'IA / LLMs',
     ],
     advantagesTitle: 'Por que trabalhar com a L Shark Tech?',
     advantages: [
-      'Experiência em projetos reais e sistemas complexos.',
-      'Comunicação direta com o desenvolvedor responsável.',
-      'Soluções personalizadas de acordo com o problema da empresa.',
-      'Desenvolvimento de sistemas preparados para produção.',
-      'CNPJ ativo.',
-      'Possibilidade de emissão de nota fiscal.',
-      'Atendimento remoto para empresas brasileiras e internacionais.',
+      'Experiência em sistemas reais.',
+      'Soluções personalizadas.',
+      'Comunicação direta.',
+      'CNPJ ativo e emissão de nota fiscal.',
     ],
     ctaText:
-      'Sua empresa possui algum processo manual, integração pendente ou necessidade de automação?',
-    ctaDescription: 'Vamos conversar sobre uma solução prática.',
-    ctaButton: 'Solicitar uma conversa',
+      'Tem um processo manual, integração pendente ou necessidade de automação?',
+    ctaDescription: 'Solicite uma análise inicial.',
+    ctaButton: 'Solicitar análise',
     ctaMailto:
-      'mailto:leandroshark.tech@gmail.com?subject=Solicitação%20de%20projeto%20-%20L%20Shark%20Tech',
+      'mailto:leandroshark.tech@gmail.com?subject=Análise%20de%20projeto%20-%20L%20Shark%20Tech',
     email: 'leandroshark.tech@gmail.com',
+    website: 'lsharktech.pages.dev',
+    linkedin: 'linkedin.com/in/lsharktech',
     footer: {
       companyName: 'L Shark Tech LTDA',
       founded: 'Fundada em julho de 2023',
-      tagline: 'Engenharia de Sistemas Inteligentes',
     },
     downloadButton: 'Baixar apresentação em PDF',
+    projectLinkLabel: 'Ver projeto',
   },
   en: {
     id: 'english',
@@ -146,28 +135,23 @@ export const companyProfileContent: Record<string, LanguageContent> = {
     subtitle:
       'We transform manual processes and technical challenges into intelligent, automated and production-ready solutions.',
     about:
-      'L Shark Tech develops intelligent software for Artificial Intelligence, automation, data engineering, trading systems, APIs and high-performance web applications.\n\nWe help companies reduce repetitive work, integrate systems, organize data and implement custom technology solutions.',
+      'L Shark Tech develops intelligent software for Artificial Intelligence, automation, data engineering, trading systems, APIs and high-performance web applications. We help companies reduce repetitive work, integrate systems, organize data and implement custom technology solutions.',
     servicesTitle: 'What We Can Build for Your Business',
     services: [
       {
         title: 'Process Automation',
         description:
-          'Automation of manual tasks, spreadsheets, reports, data processing, document generation and operational workflows.',
+          'Automation of manual tasks, spreadsheets, reports, data processing and operational workflows.',
       },
       {
         title: 'Artificial Intelligence',
         description:
-          'AI assistants, language model integrations, intelligent agents, document analysis and AI-powered automation.',
+          'AI assistants, language model integrations, intelligent agents and document analysis.',
       },
       {
-        title: 'APIs and Integrations',
+        title: 'APIs, Data & Integrations',
         description:
-          'Development of Python and FastAPI APIs, system integrations, webhooks, authentication and real-time processing.',
-      },
-      {
-        title: 'Data Engineering and Dashboards',
-        description:
-          'Data collection, transformation and organization, dashboards, business indicators, automated reports and data visualization.',
+          'APIs, system integrations, data engineering, dashboards and real-time automation.',
       },
     ],
     projectsTitle: 'Selected Projects',
@@ -175,65 +159,57 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       {
         title: 'AllCripto',
         description:
-          'Cryptocurrency analysis and arbitrage platform with multiple exchange integrations, market monitoring and opportunity detection.',
+          'Cryptocurrency analysis and arbitrage platform with multiple exchange integrations.',
         link: 'https://allcripto.com',
       },
       {
         title: 'PolyBot',
         description:
-          'Artificial Intelligence system for analysis and automated operations in prediction markets.',
+          'AI system for analysis and automated operations in prediction markets.',
         link: 'https://lsharktech.pages.dev/projects/polybot',
       },
       {
         title: 'Trader Dashboard',
         description:
-          'Dashboard for monitoring trading activity, metrics, positions, performance and real-time market data.',
+          'Dashboard for monitoring trading activity, metrics and real-time market data.',
         link: 'https://lsharktech.pages.dev/projects/trader-dashboard',
       },
     ],
     technologiesTitle: 'Technology Stack',
     technologies: [
       'Python',
+      'FastAPI',
       'Go',
       'TypeScript',
-      'FastAPI',
       'Next.js',
-      'React',
       'Docker',
       'Redis',
       'MySQL',
-      'REST APIs',
-      'WebSockets',
       'Cloudflare',
-      'AWS',
-      'Artificial Intelligence',
-      'LLMs',
-      'Automation',
-      'Data Engineering',
+      'AI / LLMs',
     ],
     advantagesTitle: 'Why Work With L Shark Tech?',
     advantages: [
-      'Experience with real-world projects and complex systems.',
-      'Direct communication with the responsible developer.',
-      'Custom solutions based on each company\'s problem.',
-      'Production-ready software development.',
-      'Active Brazilian company registration.',
-      'Invoice issuance available.',
-      'Remote service for Brazilian and international companies.',
+      'Experience with real systems.',
+      'Custom solutions.',
+      'Direct communication.',
+      'Active CNPJ and invoice issuance.',
     ],
     ctaText:
-      'Does your company have a manual process, missing integration or automation challenge?',
-    ctaDescription: "Let's discuss a practical solution.",
-    ctaButton: 'Start a Conversation',
+      'Do you have a manual process, missing integration or automation challenge?',
+    ctaDescription: 'Request an initial assessment.',
+    ctaButton: 'Request assessment',
     ctaMailto:
-      'mailto:leandroshark.tech@gmail.com?subject=Project%20Request%20-%20L%20Shark%20Tech',
+      'mailto:leandroshark.tech@gmail.com?subject=Project%20Assessment%20-%20L%20Shark%20Tech',
     email: 'leandroshark.tech@gmail.com',
+    website: 'lsharktech.pages.dev',
+    linkedin: 'linkedin.com/in/lsharktech',
     footer: {
       companyName: 'L Shark Tech LTDA',
       founded: 'Founded in July 2023',
-      tagline: 'Engineering Intelligent Systems',
     },
     downloadButton: 'Download PDF Presentation',
+    projectLinkLabel: 'View project',
   },
   es: {
     id: 'espanol',
@@ -244,28 +220,23 @@ export const companyProfileContent: Record<string, LanguageContent> = {
     subtitle:
       'Transformamos procesos manuales y desafíos técnicos en soluciones inteligentes, automatizadas y preparadas para producción.',
     about:
-      'L Shark Tech desarrolla software inteligente para Inteligencia Artificial, automatización, ingeniería de datos, sistemas de trading, APIs y aplicaciones web de alto rendimiento.\n\nAyudamos a las empresas a reducir tareas repetitivas, integrar sistemas, organizar datos e implementar soluciones tecnológicas personalizadas.',
+      'L Shark Tech desarrolla software inteligente para Inteligencia Artificial, automatización, ingeniería de datos, sistemas de trading, APIs y aplicaciones web de alto rendimiento. Ayudamos a las empresas a reducir tareas repetitivas, integrar sistemas, organizar datos e implementar soluciones tecnológicas personalizadas.',
     servicesTitle: 'Lo que Podemos Desarrollar para su Empresa',
     services: [
       {
         title: 'Automatización de Procesos',
         description:
-          'Automatización de tareas manuales, hojas de cálculo, informes, procesamiento de datos, generación de documentos y rutinas operativas.',
+          'Automatización de tareas manuales, hojas de cálculo, informes, procesamiento de datos y rutinas operativas.',
       },
       {
         title: 'Inteligencia Artificial',
         description:
-          'Asistentes de IA, integración con modelos de lenguaje, agentes inteligentes, análisis de documentos y automatización con IA.',
+          'Asistentes de IA, integración con modelos de lenguaje, agentes inteligentes y análisis de documentos.',
       },
       {
-        title: 'APIs e Integraciones',
+        title: 'APIs, Datos e Integraciones',
         description:
-          'Desarrollo de APIs con Python y FastAPI, integraciones entre sistemas, webhooks, autenticación y procesamiento en tiempo real.',
-      },
-      {
-        title: 'Ingeniería de Datos y Dashboards',
-        description:
-          'Recopilación, transformación y organización de datos, dashboards, indicadores, informes automatizados y visualización de información empresarial.',
+          'APIs, integraciones entre sistemas, ingeniería de datos, dashboards y automatización en tiempo real.',
       },
     ],
     projectsTitle: 'Proyectos Seleccionados',
@@ -273,64 +244,56 @@ export const companyProfileContent: Record<string, LanguageContent> = {
       {
         title: 'AllCripto',
         description:
-          'Plataforma de análisis y arbitraje de criptomonedas con integración a múltiples exchanges, monitoreo del mercado y detección de oportunidades.',
+          'Plataforma de análisis y arbitraje de criptomonedas con integración a múltiples exchanges.',
         link: 'https://allcripto.com',
       },
       {
         title: 'PolyBot',
         description:
-          'Sistema basado en Inteligencia Artificial para análisis y automatización de operaciones en mercados de predicción.',
+          'Sistema basado en IA para análisis y automatización de operaciones en mercados de predicción.',
         link: 'https://lsharktech.pages.dev/projects/polybot',
       },
       {
         title: 'Trader Dashboard',
         description:
-          'Dashboard para monitoreo de trading, métricas, posiciones, resultados y datos de mercado en tiempo real.',
+          'Dashboard para monitoreo de trading, métricas y datos de mercado en tiempo real.',
         link: 'https://lsharktech.pages.dev/projects/trader-dashboard',
       },
     ],
     technologiesTitle: 'Tecnologías',
     technologies: [
       'Python',
+      'FastAPI',
       'Go',
       'TypeScript',
-      'FastAPI',
       'Next.js',
-      'React',
       'Docker',
       'Redis',
       'MySQL',
-      'REST APIs',
-      'WebSockets',
       'Cloudflare',
-      'AWS',
-      'Inteligencia Artificial',
-      'LLMs',
-      'Automatización',
-      'Ingeniería de Datos',
+      'IA / LLMs',
     ],
     advantagesTitle: '¿Por Qué Trabajar con L Shark Tech?',
     advantages: [
-      'Experiencia en proyectos reales y sistemas complejos.',
-      'Comunicación directa con el desarrollador responsable.',
-      'Soluciones personalizadas de acuerdo con el problema de cada empresa.',
-      'Desarrollo de sistemas preparados para producción.',
-      'Empresa brasileña activa.',
-      'Emisión de factura disponible.',
-      'Atención remota para empresas brasileñas e internacionales.',
+      'Experiencia en sistemas reales.',
+      'Soluciones personalizadas.',
+      'Comunicación directa.',
+      'CNPJ activo y emisión de factura.',
     ],
     ctaText:
-      '¿Su empresa tiene algún proceso manual, integración pendiente o necesidad de automatización?',
-    ctaDescription: 'Hablemos sobre una solución práctica.',
-    ctaButton: 'Solicitar una Conversación',
+      '¿Tiene un proceso manual, una integración pendiente o una necesidad de automatización?',
+    ctaDescription: 'Solicite una evaluación inicial.',
+    ctaButton: 'Solicitar evaluación',
     ctaMailto:
-      'mailto:leandroshark.tech@gmail.com?subject=Solicitud%20de%20proyecto%20-%20L%20Shark%20Tech',
+      'mailto:leandroshark.tech@gmail.com?subject=Evaluación%20de%20proyecto%20-%20L%20Shark%20Tech',
     email: 'leandroshark.tech@gmail.com',
+    website: 'lsharktech.pages.dev',
+    linkedin: 'linkedin.com/in/lsharktech',
     footer: {
       companyName: 'L Shark Tech LTDA',
       founded: 'Fundada en julio de 2023',
-      tagline: 'Ingeniería de Sistemas Inteligentes',
     },
     downloadButton: 'Descargar Presentación en PDF',
+    projectLinkLabel: 'Ver proyecto',
   },
 };
