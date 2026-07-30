@@ -51,6 +51,22 @@ body {
   }
 
   html,
+  body,
+  main,
+  .print-section,
+  .print-section * {
+    transform: none !important;
+    scale: none !important;
+    zoom: 1 !important;
+    filter: none !important;
+    backdrop-filter: none !important;
+    perspective: none !important;
+    contain: none !important;
+    will-change: auto !important;
+    isolation: auto !important;
+  }
+
+  html,
   body {
     height: auto !important;
     overflow: visible !important;
@@ -66,7 +82,6 @@ body {
     break-after: page;
     min-height: 0 !important;
     height: auto !important;
-    max-width: none !important;
     max-height: 297mm !important;
     overflow: visible !important;
     padding: 14mm 15mm !important;
@@ -77,18 +92,9 @@ body {
     break-after: auto;
   }
 
-  .print-section > div {
-    max-width: none !important;
-  }
-
-  .print-section img {
-    width: 120px !important;
-    height: auto !important;
-  }
-
   .print-section h1 {
     font-size: 28pt !important;
-    line-height: 1.1 !important;
+    line-height: 1.15 !important;
   }
 
   .print-section h2 {
@@ -102,103 +108,35 @@ body {
 
   .print-section p,
   .print-section li,
-  .print-section span {
-    line-height: 1.35 !important;
-  }
-
-  .print-section :is(p, li, a, span):not(h1):not(h2):not(h3) {
+  .print-section span,
+  .print-section a {
     font-size: 9.5pt !important;
+    line-height: 1.4 !important;
   }
 
   .print-section a {
-    color: inherit !important;
+    color: #93c5fd !important;
+    text-decoration: underline !important;
+  }
+
+  .print-section a[href^="#"],
+  .print-section a[aria-current] {
+    color: #a1a1aa !important;
     text-decoration: none !important;
   }
 
-  .print-section a[href^="http"] {
-    color: #93c5fd !important;
+  .print-section footer p {
+    font-size: 8pt !important;
   }
 
-  .print-section a[href^="mailto"] {
-    color: #93c5fd !important;
-  }
-
-  .print-section .text-blue-400,
-  .print-section [class*="text-blue"] {
-    color: #93c5fd !important;
-  }
-
-  .print-section .text-zinc-300 {
-    color: #d4d4d8 !important;
-  }
-
-  .print-section .text-zinc-400 {
-    color: #a1a1aa !important;
-  }
-
-  .print-section .text-zinc-500 {
-    color: #71717a !important;
-  }
-
-  .print-section .text-zinc-600 {
-    color: #52525b !important;
-  }
-
-  .print-section .border-zinc-800,
-  .print-section .border-zinc-700 {
-    border-color: #3f3f46 !important;
-  }
-
-  .print-section .bg-zinc-900\/50,
-  .print-section .bg-zinc-800\/40 {
-    background: rgba(24, 24, 27, 0.7) !important;
-  }
-
-  .print-section .bg-blue-600 {
-    background: #2563eb !important;
-  }
-
-  .print-section [class*="mt-"]:not(div):not(section) {
-    margin-top: 3pt !important;
-  }
-
-  .print-section [class*="gap-"] {
-    gap: 2pt !important;
-  }
-
-  .print-section [class*="p-"]:not(div):not(section) {
-    padding: 2pt !important;
-  }
-
-  .print-section [class*="rounded"] {
-    border-width: 0.5pt !important;
-  }
-
-  .print-section [class*="grid"] {
-    gap: 2pt !important;
-    display: grid !important;
-  }
-
-  .print-section [class*="sm:grid-cols-3"] {
-    grid-template-columns: repeat(3, 1fr) !important;
-  }
-
-  .print-section [class*="sm:grid-cols-2"] {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-
-  .print-section ul {
-    list-style: none !important;
-    padding-left: 0 !important;
+  .print-section img {
+    width: 120px !important;
+    height: auto !important;
   }
 
   .print-section svg {
-    width: 9pt !important;
-    height: 9pt !important;
-  }
-
-  .print-section footer p:last-child {
-    padding-bottom: 0 !important;
+    width: 10pt !important;
+    height: 10pt !important;
   }
 
   .break-inside-avoid {

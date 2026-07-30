@@ -6,10 +6,11 @@ interface LanguageSectionProps {
 }
 
 function LanguageSection({ content }: LanguageSectionProps) {
+  const BASE = 'https://lsharktech.pages.dev/company-profile';
   const langs = [
-    { id: 'portugues', label: 'Português', lang: 'pt' },
-    { id: 'english', label: 'English', lang: 'en' },
-    { id: 'espanol', label: 'Español', lang: 'es' },
+    { id: 'portugues', label: 'Português', lang: 'pt', url: `${BASE}#portugues` },
+    { id: 'english', label: 'English', lang: 'en', url: `${BASE}#english` },
+    { id: 'espanol', label: 'Español', lang: 'es', url: `${BASE}#espanol` },
   ];
 
   return (
@@ -32,7 +33,7 @@ function LanguageSection({ content }: LanguageSectionProps) {
             {langs.map((l, i) => (
               <span key={l.id} className="flex items-center gap-2">
                 {i > 0 && <span className="text-zinc-700">|</span>}
-                <LanguageLink href={`#${l.id}`} label={l.label} currentLang={content.lang} lang={l.lang} />
+                <LanguageLink href={l.url} label={l.label} currentLang={content.lang} lang={l.lang} />
               </span>
             ))}
           </div>
@@ -158,6 +159,18 @@ function LanguageSection({ content }: LanguageSectionProps) {
           </a>
         </div>
 
+        {/* Diagnostic test link — visible in print only */}
+        <div className="hidden print:block mt-2 text-center">
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[9pt] text-red-400 underline"
+          >
+            TESTE DE LINK
+          </a>
+        </div>
+
         {/* Footer */}
         <footer className="mt-4 border-t border-zinc-800 pt-3 text-center print:mt-3 print:border-zinc-700 print:pt-2">
           <p className="text-[10px] text-zinc-500 md:text-xs print:text-[8pt]">
@@ -167,7 +180,7 @@ function LanguageSection({ content }: LanguageSectionProps) {
             {langs.map((l, i) => (
               <span key={l.id} className="flex items-center gap-2">
                 {i > 0 && <span className="text-zinc-700">|</span>}
-                <LanguageLink href={`#${l.id}`} label={l.label} currentLang={content.lang} lang={l.lang} />
+                <LanguageLink href={l.url} label={l.label} currentLang={content.lang} lang={l.lang} />
               </span>
             ))}
           </div>
