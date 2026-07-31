@@ -51,7 +51,8 @@ body {
   }
 
   .no-external-contact .contact-row,
-  .no-external-contact .cta-mailto {
+  .no-external-contact .cta-mailto,
+  .no-external-contact .project-link {
     display: none !important;
   }
 

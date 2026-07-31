@@ -247,7 +247,7 @@ function ProjectCard({
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-1.5 inline-flex items-center gap-1 text-xs font-medium text-blue-400 transition-colors hover:text-blue-300 md:text-sm print:text-[9pt] print:mt-1"
+        className="project-link mt-1.5 inline-flex items-center gap-1 text-xs font-medium text-blue-400 transition-colors hover:text-blue-300 md:text-sm print:text-[9pt] print:mt-1"
       >
         {linkLabel}
         <svg
