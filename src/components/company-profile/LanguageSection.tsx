@@ -114,7 +114,7 @@ function LanguageSection({ content }: LanguageSectionProps) {
             </p>
             <a
               href={content.ctaMailto}
-              className="mt-3 inline-flex items-center rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-500 md:text-base print:mt-2 print:px-4 print:py-1.5 print:text-[10pt]"
+              className="cta-mailto mt-3 inline-flex items-center rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-500 md:text-base print:mt-2 print:px-4 print:py-1.5 print:text-[10pt]"
             >
               {content.ctaButton}
             </a>
@@ -122,7 +122,7 @@ function LanguageSection({ content }: LanguageSectionProps) {
         </div>
 
         {/* Contact */}
-        <div className="mt-4 flex flex-wrap items-center justify-center gap-x-5 gap-y-1 text-xs text-zinc-400 md:text-sm print:mt-3 print:text-[9.5pt]">
+        <div className="contact-row mt-4 flex flex-wrap items-center justify-center gap-x-5 gap-y-1 text-xs text-zinc-400 md:text-sm print:mt-3 print:text-[9.5pt]">
           <a
             href="https://lsharktech.pages.dev"
             target="_blank"
