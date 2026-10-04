@@ -74,7 +74,7 @@ export const resumeContent: Record<string, ResumeContent> = {
       {
         role: 'Analista de Suporte | Sportsbook & iGaming Operations',
         company: 'B2B TECH',
-        period: 'mai 2022 – o momento · 4 anos 3 meses',
+        period: 'mai 2022 – out 2026 · 4 anos 5 meses',
         location: 'Recife · Remoto',
         description:
           'Responsável pelo acompanhamento operacional e analítico do Sportsbook em plataforma iGaming, monitorando desempenho, fluxos, indicadores, incidentes e suporte às operações para garantir estabilidade, performance e melhor experiência do usuário.',
@@ -314,7 +314,7 @@ export const resumeContent: Record<string, ResumeContent> = {
       {
         role: 'Support Analyst | Sportsbook & iGaming Operations',
         company: 'B2B TECH',
-        period: 'May 2022 – Present · 4 yrs 3 mos',
+        period: 'May 2022 – Oct 2026 · 4 yrs 5 mos',
         location: 'Recife · Remote',
         description:
           'Responsible for the operational and analytical monitoring of the Sportsbook on an iGaming platform, tracking performance, workflows, indicators, incidents and operations support to ensure stability, performance and the best user experience.',
@@ -553,7 +553,7 @@ export const resumeContent: Record<string, ResumeContent> = {
       {
         role: 'Analista de Soporte | Sportsbook & iGaming Operations',
         company: 'B2B TECH',
-        period: 'may 2022 – actualidad · 4 años 3 meses',
+        period: 'may 2022 – oct 2026 · 4 años 5 meses',
         location: 'Recife · Remoto',
         description:
           'Responsable del monitoreo operativo y analítico del Sportsbook en plataforma iGaming, dando seguimiento a desempeño, flujos, indicadores, incidentes y soporte a las operaciones para garantizar estabilidad, rendimiento y la mejor experiencia de usuario.',
