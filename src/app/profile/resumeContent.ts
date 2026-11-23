@@ -34,6 +34,7 @@ export interface ResumeContent {
   label: string;
   fullName: string;
   headline: string;
+  personalInfo: string;
   location: string;
   profileTitle: string;
   profile: string;
@@ -67,6 +68,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     fullName: 'Leandro Souza Gomes',
     headline:
       'Analista de Dados | Desenvolvedor Python | IA & Automação | iGaming & Sportsbook | Power BI | SQL\nGerente de Vendas | Gestão de Equipes Comerciais | Planejamento Estratégico & Operações',
+    personalInfo: '{age} anos, Casado, 3 filhos',
     location: 'Santa Rita, Paraíba, Brasil',
     profileTitle: 'Perfil',
     profile:
@@ -316,6 +318,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     fullName: 'Leandro Souza Gomes',
     headline:
       'Data Analyst | Python Developer | AI & Automation | iGaming & Sportsbook | Power BI | SQL',
+    personalInfo: '{age} years old, Married, 3 children',
     location: 'Santa Rita, Paraíba, Brazil',
     profileTitle: 'Profile',
     profile:
@@ -564,6 +567,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     fullName: 'Leandro Souza Gomes',
     headline:
       'Analista de Datos | Desarrollador Python | IA y Automatización | iGaming y Apuestas Deportivas | Power BI | SQL\nGerente de Ventas | Gestión de Equipos Comerciales | Planificación Estratégica y Operaciones',
+    personalInfo: '{age} años, Casado, 3 hijos',
     location: 'Santa Rita, Paraíba, Brasil',
     profileTitle: 'Perfil',
     profile:

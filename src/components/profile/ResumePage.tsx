@@ -22,11 +22,30 @@ function getInitialLang(): Lang {
   return stored === 'en' || stored === 'es' ? stored : 'pt';
 }
 
+function calculateAge(dateOfBirth: string): number {
+  const today = new Date();
+  const [day, month, year] = dateOfBirth.split('/').map(Number);
+  let age = today.getFullYear() - year;
+
+  if (
+    today.getMonth() + 1 < month ||
+    (today.getMonth() + 1 === month && today.getDate() < day)
+  ) {
+    age -= 1;
+  }
+
+  return age;
+}
+
 export default function ResumePage() {
   const [lang, setLang] = useState<Lang>(getInitialLang);
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
 
   const content: ResumeContent = resumeContent[lang];
+  const personalInfo = content.personalInfo.replace(
+    '{age}',
+    String(calculateAge('31/08/1987')),
+  );
 
   const selectLanguage = (l: Lang) => {
     setLang(l);
@@ -134,6 +153,7 @@ export default function ResumePage() {
               <div className="resume-heading">
                 <h1 className="resume-name">{content.fullName}</h1>
                 <p className="resume-headline">{content.headline}</p>
+                <p className="resume-location">{personalInfo}</p>
                 <p className="resume-location">{content.location}</p>
               </div>
             </div>
