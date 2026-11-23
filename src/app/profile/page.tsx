@@ -4,7 +4,7 @@ import ResumePage from '@/components/profile/ResumePage';
 export const metadata: Metadata = {
   title: 'Leandro Souza Gomes | Currículo',
   description:
-    'Currículo profissional de Leandro Souza Gomes – Data Analyst, Python Developer, iGaming & Sportsbook, Power BI, SQL.',
+    'Currículo profissional de Leandro Souza Gomes – Analista de Dados, Desenvolvedor Python, iGaming e apostas esportivas, Power BI e SQL.',
   robots: {
     index: false,
     follow: false,
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Leandro Souza Gomes | Currículo',
     description:
-      'Data Analyst | Python Developer | AI & Automation | iGaming & Sportsbook | Power BI | SQL',
+      'Analista de Dados | Desenvolvedor Python | IA & Automação | iGaming & Sportsbook | Power BI | SQL',
     type: 'profile',
     url: 'https://lsharktech.pages.dev/profile',
   },

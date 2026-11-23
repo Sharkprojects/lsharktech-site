@@ -24,6 +24,7 @@ function getInitialLang(): Lang {
 
 export default function ResumePage() {
   const [lang, setLang] = useState<Lang>(getInitialLang);
+  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
 
   const content: ResumeContent = resumeContent[lang];
 
@@ -32,8 +33,13 @@ export default function ResumePage() {
     localStorage.setItem(STORAGE_KEY, l);
   };
 
+  const toggleTheme = () => {
+    const nextTheme = theme === 'dark' ? 'light' : 'dark';
+    setTheme(nextTheme);
+  };
+
   return (
-    <div className="min-h-screen bg-zinc-950 text-white">
+    <div className={`resume-app resume-theme-${theme}`}>
       {/* Fixed header */}
       <header className="fixed inset-x-0 top-0 z-50 border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-md print:hidden">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
@@ -55,7 +61,7 @@ export default function ResumePage() {
             </span>
           </Link>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             <div
               className="flex items-center gap-1 rounded-lg border border-zinc-800 bg-zinc-900 px-2 py-1 text-xs font-medium"
               role="group"
@@ -81,6 +87,19 @@ export default function ResumePage() {
                 );
               })}
             </div>
+
+            <button
+              type="button"
+              onClick={toggleTheme}
+              className="resume-theme-toggle rounded-lg border px-2 py-2 text-xs font-medium transition-colors sm:px-3"
+              aria-label={
+                theme === 'dark'
+                  ? content.themeLightLabel
+                  : content.themeDarkLabel
+              }
+            >
+              {theme === 'dark' ? content.themeLightLabel : content.themeDarkLabel}
+            </button>
 
             <button
               type="button"
@@ -249,7 +268,7 @@ export default function ResumePage() {
                 <GlobeIcon />
                 <span>{content.contacts.website}</span>
               </a>
-              <a href="tel:+55{content.contacts.phone}" className="resume-contact-item">
+              <a href={`tel:+55${content.contacts.phone}`} className="resume-contact-item">
                 <PhoneIcon />
                 <span>{content.contacts.phoneDisplay}</span>
               </a>

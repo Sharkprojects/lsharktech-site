@@ -54,6 +54,8 @@ export interface ResumeContent {
   };
   credentialLabel: string;
   downloadLabel: string;
+  themeLightLabel: string;
+  themeDarkLabel: string;
   photoAlt: string;
 }
 
@@ -64,15 +66,15 @@ export const resumeContent: Record<string, ResumeContent> = {
     label: 'PT',
     fullName: 'Leandro Souza Gomes',
     headline:
-      'Data Analyst | Python Developer | AI & Automation | iGaming & Sportsbook | Power BI | SQL',
+      'Analista de Dados | Desenvolvedor Python | IA & Automação | iGaming & Sportsbook | Power BI | SQL\nGerente de Vendas | Gestão de Equipes Comerciais | Planejamento Estratégico & Operações',
     location: 'Santa Rita, Paraíba, Brasil',
     profileTitle: 'Perfil',
     profile:
-      'Analista de dados e desenvolvedor com mais de 4 anos em operações de Sportsbook e iGaming, monitorando indicadores, fluxos e incidentes para garantir estabilidade e performance. Combino análise de dados com automação em Python e Go, Power BI e SQL para transformar métricas em decisões. Certificado em Google Analytics, Web Analytics e GA4, com trilha sólida em front-end, back-end e infraestrutura AWS.',
+      'Analista de dados, desenvolvedor e gestor com mais de 4 anos em operações de apostas esportivas e iGaming e mais de 19 anos de experiência prévia em gestão comercial, vendas e rotinas administrativas. Especialista em monitorar indicadores, fluxos e incidentes para garantir estabilidade e desempenho, combinando análise de dados com automação em Python e Go, Power BI e SQL para transformar métricas em decisões. Certificado em Google Analytics e GA4, com experiência em desenvolvimento front-end, back-end e infraestrutura AWS, além de forte atuação na liderança de equipes comerciais, expansão de carteira de clientes, planejamento estratégico e atendimento ao público.',
     experienceTitle: 'Experiência',
     experience: [
       {
-        role: 'Analista de Suporte | Sportsbook & iGaming Operations',
+        role: 'Analista de Suporte | Operações de Apostas Esportivas & iGaming',
         company: 'B2B TECH',
         period: 'mai 2022 – out 2026 · 4 anos 5 meses',
         location: 'Recife · Remoto',
@@ -83,7 +85,7 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Análise de dados',
           'Monitoração de sistemas',
           'Gestão de incidentes',
-          'Sportsbook Operations',
+          'Operações de apostas esportivas',
           'iGaming',
           'Atendimento ao cliente',
           'SQL',
@@ -112,27 +114,34 @@ export const resumeContent: Record<string, ResumeContent> = {
         location: 'Cabedelo, Paraíba, Brasil',
         description:
           'Rotinas administrativas, organização de documentos, atendimento ao público e apoio operacional ao posto de combustíveis.',
-        skills: [],
+        skills: [
+          'Rotinas administrativas',
+          'Atendimento ao público',
+          'Gestão de documentos',
+          'Apoio operacional',
+          'Controle financeiro',
+          'Organização',
+        ],
       },
     ],
     educationTitle: 'Formação Acadêmica',
     education: [
       {
         institution: 'UNOPAR – Universidade Norte do Paraná',
-        course: 'Desenvolvimento Avançado em Java',
+        course: 'Pós-graduação em Desenvolvimento Avançado em Java',
         period: 'mar 2014 – dez 2014',
-        field: 'Information Technology',
+        field: 'Tecnologia da Informação',
       },
       {
         institution: 'FATEC PB',
-        course: 'Tecnologia em Sistemas para Internet',
+        course: 'Graduação em Tecnologia em Sistemas para Internet',
         period: '2010 – 2013',
       },
     ],
     certificationsTitle: 'Certificações & Cursos',
     certifications: [
       {
-        name: 'Web Analytics (COMPLETO) – Muito além do Google Analytics',
+        name: 'Análise da Web (COMPLETO) – Muito além do Google Analytics',
         issuer: 'Udemy Brasil',
         date: 'abr 2026',
         credentialId: 'UC-c3d4cf20-dcff-41f8-987c-0cd090e9910d',
@@ -148,25 +157,25 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Configuração do GA4, eventos e conversões, relatórios, métricas e KPIs, integração com Google Ads e Tag Manager e insights para crescimento.',
       },
       {
-        name: 'Google Analytics Certification',
+        name: 'Certificação Google Analytics',
         issuer: 'Google',
         date: 'abr 2026',
         expiry: 'abr 2027',
         credentialId: '1799030805',
       },
       {
-        name: 'Trackeando conversões com pixel do Facebook e Google Ads',
+        name: 'Acompanhamento de conversões com pixel do Facebook e Google Ads',
         issuer: 'Udemy Brasil',
         date: 'abr 2026',
         credentialId: 'UC-f4cf8128-b037-47fd-9b78-b761c99b195e',
       },
       {
-        name: 'Building GUI Applications with Fyne and Go (Golang)',
+        name: 'Criação de interfaces gráficas com Fyne e Go (Golang)',
         issuer: 'Udemy Brasil',
         date: 'dez 2024',
         credentialId: 'UC-1c6fef35-b74b-424d-9240-c59d30e63f88',
         description:
-          'Curso em GoLang com Fyne para criação de aplicações Desktop.',
+          'Curso de Go com Fyne para criação de aplicativos para computador.',
       },
       {
         name: 'Como Criar Robôs no Telegram com Python',
@@ -189,7 +198,7 @@ export const resumeContent: Record<string, ResumeContent> = {
         credentialId: '6d6a41e6-f726-8868-5722-3bb10c11aa3b',
       },
       {
-        name: 'Back-end em Node.js',
+        name: 'Desenvolvimento back-end com Node.js',
         issuer: 'Ada',
         date: 'jun 2024',
         credentialId: '72163f90-85bf-84e7-28c6-f34d5cefcf08',
@@ -201,13 +210,13 @@ export const resumeContent: Record<string, ResumeContent> = {
         credentialId: '40f0d8b6-0756-8692-4dc8-6f377108e030',
       },
       {
-        name: 'Figma para Devs',
+        name: 'Figma para desenvolvedores',
         issuer: 'Ada',
         date: 'jun 2024',
         credentialId: '12983dc0-d02b-aad1-bbeb-41b2d6dc6e72',
       },
       {
-        name: 'Trilha digital | Coders 24 | Front End',
+        name: 'Trilha digital | Coders 24 | Desenvolvimento front-end',
         issuer: 'Ada',
         date: 'jun 2024',
         credentialId: '12ac5f71-eaa0-a2b1-7d69-54e1dd88df22',
@@ -228,7 +237,7 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Apostas esportivas',
           'Cassino',
           'Jogos de cassino',
-          'Crypto',
+          'Ativos digitais',
           'Criptomoeda',
           'Gestão de riscos',
           'Análise de risco',
@@ -248,8 +257,8 @@ export const resumeContent: Record<string, ResumeContent> = {
           'CSS',
           'SQL',
           'MySQL',
-          'Amazon Web Services',
-          'Microsoft Power BI',
+          'AWS',
+          'Power BI',
           'Microsoft Excel',
           'API REST',
           'Figma',
@@ -274,7 +283,7 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Monitoração de sistemas',
           'Suporte técnico',
           'Gestão de incidentes',
-          'Sportsbook Operations',
+          'Operações de apostas esportivas',
           'iGaming',
           'Atendimento ao cliente',
           'Gestão de tráfego',
@@ -283,19 +292,21 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Promoção de vendas',
           'Segurança alimentar',
           'Estatísticas sobre clientes',
-          'Front',
+          'Desenvolvimento de front-end',
         ],
       },
     ],
     contacts: {
       linkedin: 'linkedin.com/in/lsharktech',
       website: 'lsharktech.pages.dev',
-      phone: '83981265024',
-      phoneDisplay: '+55 83 98126-5024',
+      phone: '83921617399',
+      phoneDisplay: '+55 83 92161-7399',
       email: 'leandroshark.tech@gmail.com',
     },
     credentialLabel: 'Credencial',
     downloadLabel: 'Baixar currículo em PDF',
+    themeLightLabel: 'Modo Claro',
+    themeDarkLabel: 'Modo Escuro',
     photoAlt: 'Foto 3x4 de Leandro Souza Gomes',
   },
   en: {
@@ -308,7 +319,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     location: 'Santa Rita, Paraíba, Brazil',
     profileTitle: 'Profile',
     profile:
-      'Data analyst and developer with 4+ years in Sportsbook and iGaming operations, monitoring indicators, workflows and incidents to ensure stability and performance. I combine data analysis with Python and Go automation, Power BI and SQL to turn metrics into decisions. Certified in Google Analytics, Web Analytics and GA4, with a solid track in front-end, back-end and AWS infrastructure.',
+      'Data analyst, developer and manager with 4+ years in Sportsbook and iGaming operations and 19+ years of prior experience in commercial management, sales and administration. Experienced in monitoring metrics, workflows and incidents to ensure stability and performance, combining data analysis with Python and Go automation, Power BI and SQL to turn metrics into decisions. Google Analytics and GA4 certified, with experience across front-end, back-end and AWS infrastructure, as well as commercial team leadership, client portfolio growth, strategic planning and customer service.',
     experienceTitle: 'Experience',
     experience: [
       {
@@ -352,20 +363,27 @@ export const resumeContent: Record<string, ResumeContent> = {
         location: 'Cabedelo, Paraíba, Brazil',
         description:
           'Administrative routines, document organization, customer service and operational support to the fuel station.',
-        skills: [],
+        skills: [
+          'Administrative routines',
+          'Public-facing service',
+          'Document management',
+          'Operational support',
+          'Financial control',
+          'Organization',
+        ],
       },
     ],
     educationTitle: 'Education',
     education: [
       {
         institution: 'UNOPAR – Universidade Norte do Paraná',
-        course: 'Advanced Development in Java',
+        course: 'Postgraduate Certificate in Advanced Java Development',
         period: 'Mar 2014 – Dec 2014',
         field: 'Information Technology',
       },
       {
         institution: 'FATEC PB',
-        course: 'Internet Systems Technology',
+        course: 'Undergraduate Degree in Internet Systems Technology',
         period: '2010 – 2013',
       },
     ],
@@ -529,12 +547,14 @@ export const resumeContent: Record<string, ResumeContent> = {
     contacts: {
       linkedin: 'linkedin.com/in/lsharktech',
       website: 'lsharktech.pages.dev',
-      phone: '83981265024',
-      phoneDisplay: '+55 83 98126-5024',
+      phone: '83921617399',
+      phoneDisplay: '+55 83 92161-7399',
       email: 'leandroshark.tech@gmail.com',
     },
     credentialLabel: 'Credential',
     downloadLabel: 'Download resume as PDF',
+    themeLightLabel: 'Light Mode',
+    themeDarkLabel: 'Dark Mode',
     photoAlt: '3x4 photo of Leandro Souza Gomes',
   },
   es: {
@@ -543,15 +563,15 @@ export const resumeContent: Record<string, ResumeContent> = {
     label: 'ES',
     fullName: 'Leandro Souza Gomes',
     headline:
-      'Data Analyst | Python Developer | AI & Automation | iGaming & Sportsbook | Power BI | SQL',
+      'Analista de Datos | Desarrollador Python | IA y Automatización | iGaming y Apuestas Deportivas | Power BI | SQL\nGerente de Ventas | Gestión de Equipos Comerciales | Planificación Estratégica y Operaciones',
     location: 'Santa Rita, Paraíba, Brasil',
     profileTitle: 'Perfil',
     profile:
-      'Analista de datos y desarrollador con más de 4 años en operaciones de Sportsbook e iGaming, monitoreando indicadores, flujos e incidentes para garantizar estabilidad y rendimiento. Combino análisis de datos con automatización en Python y Go, Power BI y SQL para convertir métricas en decisiones. Certificado en Google Analytics, Web Analytics y GA4, con una sólida trayectoria en front-end, back-end e infraestructura AWS.',
+      'Analista de datos, desarrollador y gestor con más de 4 años en operaciones de apuestas deportivas e iGaming y más de 19 años de experiencia previa en gestión comercial, ventas y administración. Especializado en supervisar indicadores, flujos e incidentes para garantizar estabilidad y rendimiento, combinando análisis de datos y automatización con Python y Go, Power BI y SQL para convertir métricas en decisiones. Certificado en Google Analytics y GA4, con experiencia en desarrollo front-end, back-end e infraestructura AWS, además de liderazgo de equipos comerciales, ampliación de carteras de clientes, planificación estratégica y atención al público.',
     experienceTitle: 'Experiencia',
     experience: [
       {
-        role: 'Analista de Soporte | Sportsbook & iGaming Operations',
+        role: 'Analista de Soporte | Operaciones de Apuestas Deportivas e iGaming',
         company: 'B2B TECH',
         period: 'may 2022 – oct 2026 · 4 años 5 meses',
         location: 'Recife · Remoto',
@@ -562,7 +582,7 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Análisis de datos',
           'Monitoreo de sistemas',
           'Gestión de incidentes',
-          'Sportsbook Operations',
+          'Operaciones de apuestas deportivas',
           'iGaming',
           'Atención al cliente',
           'SQL',
@@ -591,20 +611,27 @@ export const resumeContent: Record<string, ResumeContent> = {
         location: 'Cabedelo, Paraíba, Brasil',
         description:
           'Rutinas administrativas, organización de documentos, atención al público y apoyo operativo a la estación de servicio.',
-        skills: [],
+        skills: [
+          'Rutinas administrativas',
+          'Atención al público',
+          'Gestión documental',
+          'Apoyo operativo',
+          'Control financiero',
+          'Organización',
+        ],
       },
     ],
     educationTitle: 'Formación Académica',
     education: [
       {
         institution: 'UNOPAR – Universidade Norte do Paraná',
-        course: 'Desarrollo Avanzado en Java',
+        course: 'Posgrado en Desarrollo Avanzado en Java',
         period: 'mar 2014 – dic 2014',
-        field: 'Information Technology',
+        field: 'Tecnologías de la Información',
       },
       {
         institution: 'FATEC PB',
-        course: 'Tecnología en Sistemas para Internet',
+        course: 'Grado en Tecnología en Sistemas para Internet',
         period: '2010 – 2013',
       },
     ],
@@ -753,7 +780,7 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Monitoreo de sistemas',
           'Soporte técnico',
           'Gestión de incidentes',
-          'Sportsbook Operations',
+          'Operaciones de apuestas deportivas',
           'iGaming',
           'Atención al cliente',
           'Gestión de tráfico',
@@ -762,19 +789,21 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Promoción de ventas',
           'Seguridad alimentaria',
           'Estadísticas de clientes',
-          'Front',
+          'Desarrollo de front-end',
         ],
       },
     ],
     contacts: {
       linkedin: 'linkedin.com/in/lsharktech',
       website: 'lsharktech.pages.dev',
-      phone: '83981265024',
-      phoneDisplay: '+55 83 98126-5024',
+      phone: '83921617399',
+      phoneDisplay: '+55 83 92161-7399',
       email: 'leandroshark.tech@gmail.com',
     },
     credentialLabel: 'Credencial',
     downloadLabel: 'Descargar currículum en PDF',
+    themeLightLabel: 'Modo Claro',
+    themeDarkLabel: 'Modo Oscuro',
     photoAlt: 'Foto 3x4 de Leandro Souza Gomes',
   },
 };
