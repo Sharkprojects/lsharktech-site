@@ -74,7 +74,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     location: 'Tibiri, Santa Rita, Paraiba, Brasil',
     profileTitle: 'Perfil',
     profile:
-      'Analista de dados, desenvolvedor e gestor com mais de 4 anos em operações de apostas esportivas e iGaming e mais de 19 anos de experiência prévia em gestão comercial, vendas e rotinas administrativas. Especialista em monitorar indicadores, fluxos e incidentes para garantir estabilidade e desempenho, combinando análise de dados com automação em Python e Go, Power BI e SQL para transformar métricas em decisões. Certificado em Google Analytics e GA4, com experiência em desenvolvimento front-end, back-end e infraestrutura AWS, além de forte atuação na liderança de equipes comerciais, expansão de carteira de clientes, planejamento estratégico e atendimento ao público.',
+      'Analista de dados, desenvolvedor e gestor com mais de 4 anos em operações de Igaming e mais de 19 anos de experiência prévia em gestão comercial, vendas e rotinas administrativas. Especialista em monitorar indicadores, fluxos e incidentes para garantir estabilidade e desempenho, combinando análise de dados com automação em Python e Go, Power BI e SQL para transformar métricas em decisões. Certificado em Google Analytics e GA4, com experiência em desenvolvimento front-end, back-end e infraestrutura AWS, além de forte atuação na liderança de equipes comerciais, expansão de carteira de clientes, planejamento estratégico e atendimento ao público.',
     experienceTitle: 'Experiência',
     experience: [
       {
@@ -326,7 +326,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     location: 'Tibiri, Santa Rita, Paraiba, Brazil',
     profileTitle: 'Profile',
     profile:
-      'Data analyst, developer and manager with 4+ years in Sportsbook and iGaming operations and 19+ years of prior experience in commercial management, sales and administration. Experienced in monitoring metrics, workflows and incidents to ensure stability and performance, combining data analysis with Python and Go automation, Power BI and SQL to turn metrics into decisions. Google Analytics and GA4 certified, with experience across front-end, back-end and AWS infrastructure, as well as commercial team leadership, client portfolio growth, strategic planning and customer service.',
+      'Data analyst, developer and manager with 4+ years in Igaming operations and 19+ years of prior experience in commercial management, sales and administration. Experienced in monitoring metrics, workflows and incidents to ensure stability and performance, combining data analysis with Python and Go automation, Power BI and SQL to turn metrics into decisions. Google Analytics and GA4 certified, with experience across front-end, back-end and AWS infrastructure, as well as commercial team leadership, client portfolio growth, strategic planning and customer service.',
     experienceTitle: 'Experience',
     experience: [
       {
@@ -577,7 +577,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     location: 'Tibiri, Santa Rita, Paraiba, Brasil',
     profileTitle: 'Perfil',
     profile:
-      'Analista de datos, desarrollador y gestor con más de 4 años en operaciones de apuestas deportivas e iGaming y más de 19 años de experiencia previa en gestión comercial, ventas y administración. Especializado en supervisar indicadores, flujos e incidentes para garantizar estabilidad y rendimiento, combinando análisis de datos y automatización con Python y Go, Power BI y SQL para convertir métricas en decisiones. Certificado en Google Analytics y GA4, con experiencia en desarrollo front-end, back-end e infraestructura AWS, además de liderazgo de equipos comerciales, ampliación de carteras de clientes, planificación estratégica y atención al público.',
+      'Analista de datos, desarrollador y gestor con más de 4 años en operaciones de Igaming y más de 19 años de experiencia previa en gestión comercial, ventas y administración. Especializado en supervisar indicadores, flujos e incidentes para garantizar estabilidad y rendimiento, combinando análisis de datos y automatización con Python y Go, Power BI y SQL para convertir métricas en decisiones. Certificado en Google Analytics y GA4, con experiencia en desarrollo front-end, back-end e infraestructura AWS, además de liderazgo de equipos comerciales, ampliación de carteras de clientes, planificación estratégica y atención al público.',
     experienceTitle: 'Experiencia',
     experience: [
       {
