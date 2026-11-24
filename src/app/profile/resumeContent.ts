@@ -78,7 +78,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     experienceTitle: 'Experiência',
     experience: [
       {
-        role: 'Analista de Suporte | Operações em Igaming',
+        role: 'Analista de Suporte N3 e Dev Backend | Operações em Igaming',
         company: 'B2B TECH',
         period: 'mai 2022 – out 2026 · 4 anos 5 meses',
         location: 'Recife · Remoto',
@@ -332,7 +332,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     experienceTitle: 'Experience',
     experience: [
       {
-        role: 'Support Analyst | Igaming Operations',
+        role: 'L3 Support Analyst & Backend Dev | Igaming Operations',
         company: 'B2B TECH',
         period: 'May 2022 – Oct 2026 · 4 yrs 5 mos',
         location: 'Recife · Remote',
@@ -585,7 +585,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     experienceTitle: 'Experiencia',
     experience: [
       {
-        role: 'Analista de Soporte | Operaciones de Igaming',
+        role: 'Analista de Soporte N3 y Dev Backend | Operaciones en Igaming',
         company: 'B2B TECH',
         period: 'may 2022 – oct 2026 · 4 años 5 meses',
         location: 'Recife · Remoto',
