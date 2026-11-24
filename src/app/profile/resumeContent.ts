@@ -74,7 +74,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     location: 'Tibiri, Santa Rita, Paraiba, Brasil',
     profileTitle: 'Perfil',
     profile:
-      'Analista de dados, desenvolvedor e gestor com mais de 4 anos em operações de Igaming e mais de 19 anos de experiência prévia em gestão comercial, vendas e rotinas administrativas. Especialista em monitorar indicadores, fluxos e incidentes para garantir estabilidade e desempenho, combinando análise de dados com automação em Python e Go, Power BI e SQL para transformar métricas em decisões. Certificado em Google Analytics e GA4, com experiência em desenvolvimento front-end, back-end e infraestrutura AWS, além de forte atuação na liderança de equipes comerciais, expansão de carteira de clientes, planejamento estratégico e atendimento ao público.',
+      'Analista de dados, desenvolvedor e gestor com mais de 4 anos em operações de Igaming e mais de 19 anos de experiência prévia em gestão comercial, vendas e rotinas administrativas. Especialista em monitorar indicadores, fluxos e incidentes para garantir estabilidade e desempenho, combinando análise de dados com automação em Python e Go, Power BI e SQL para transformar métricas em decisões. Certificado em Google Analytics e GA4, com experiência em desenvolvimento front-end, back-end e infraestrutura AWS, além de forte atuação na liderança de equipes comerciais, gestão de estoque e varejo, planejamento estratégico e atendimento ao público.',
     experienceTitle: 'Experiência',
     experience: [
       {
@@ -89,7 +89,6 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Análise de dados',
           'Monitoração de sistemas',
           'Gestão de incidentes',
-          'Operações de apostas esportivas',
           'iGaming',
           'Atendimento ao cliente',
           'SQL',
@@ -102,7 +101,7 @@ export const resumeContent: Record<string, ResumeContent> = {
         period: 'mar 2009 – mai 2022 · 13 anos 3 meses',
         location: 'Cabedelo, Paraiba, Brasil',
         description:
-          'Gestão de equipes comerciais, planejamento de vendas, acompanhamento de metas, expansão da carteira de clientes e otimização de operações comerciais no setor de alimentos.',
+          'Gestão de equipes comerciais, planejamento de vendas, acompanhamento de metas, gestão de estoque e varejo e otimização de operações comerciais no setor de alimentos.',
         skills: [
           'Vendas',
           'Estratégia de marketing',
@@ -240,6 +239,9 @@ export const resumeContent: Record<string, ResumeContent> = {
         skills: [
           'Análise de dados',
           'Igaming',
+          'Gestão comercial',
+          'Planejamento de vendas',
+          'Gestão de varejo',
           'Ativos digitais',
           'Criptomoeda',
           'Gestão de riscos',
@@ -326,7 +328,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     location: 'Tibiri, Santa Rita, Paraiba, Brazil',
     profileTitle: 'Profile',
     profile:
-      'Data analyst, developer and manager with 4+ years in Igaming operations and 19+ years of prior experience in commercial management, sales and administration. Experienced in monitoring metrics, workflows and incidents to ensure stability and performance, combining data analysis with Python and Go automation, Power BI and SQL to turn metrics into decisions. Google Analytics and GA4 certified, with experience across front-end, back-end and AWS infrastructure, as well as commercial team leadership, client portfolio growth, strategic planning and customer service.',
+      'Data analyst, developer and manager with 4+ years in Igaming operations and 19+ years of prior experience in commercial management, sales and administration. Experienced in monitoring metrics, workflows and incidents to ensure stability and performance, combining data analysis with Python and Go automation, Power BI and SQL to turn metrics into decisions. Google Analytics and GA4 certified, with experience across front-end, back-end and AWS infrastructure, as well as commercial team leadership, inventory and retail management, strategic planning and customer service.',
     experienceTitle: 'Experience',
     experience: [
       {
@@ -341,7 +343,6 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Data Analysis',
           'System Monitoring',
           'Incident Management',
-          'Sportsbook Operations',
           'iGaming',
           'Customer Service',
           'SQL',
@@ -354,7 +355,7 @@ export const resumeContent: Record<string, ResumeContent> = {
         period: 'Mar 2009 – May 2022 · 13 yrs 3 mos',
         location: 'Cabedelo, Paraiba, Brazil',
         description:
-          'Management of sales teams, sales planning, target tracking, client portfolio expansion and optimization of commercial operations in the food sector.',
+          'Management of sales teams, sales planning, target tracking, inventory and retail management and optimization of commercial operations in the food sector.',
         skills: [
           'Sales',
           'Marketing Strategy',
@@ -491,6 +492,9 @@ export const resumeContent: Record<string, ResumeContent> = {
         skills: [
           'Data Analysis',
           'Igaming',
+          'Commercial Management',
+          'Sales Planning',
+          'Retail Management',
           'Crypto',
           'Cryptocurrency',
           'Risk Management',
@@ -577,7 +581,7 @@ export const resumeContent: Record<string, ResumeContent> = {
     location: 'Tibiri, Santa Rita, Paraiba, Brasil',
     profileTitle: 'Perfil',
     profile:
-      'Analista de datos, desarrollador y gestor con más de 4 años en operaciones de Igaming y más de 19 años de experiencia previa en gestión comercial, ventas y administración. Especializado en supervisar indicadores, flujos e incidentes para garantizar estabilidad y rendimiento, combinando análisis de datos y automatización con Python y Go, Power BI y SQL para convertir métricas en decisiones. Certificado en Google Analytics y GA4, con experiencia en desarrollo front-end, back-end e infraestructura AWS, además de liderazgo de equipos comerciales, ampliación de carteras de clientes, planificación estratégica y atención al público.',
+      'Analista de datos, desarrollador y gestor con más de 4 años en operaciones de Igaming y más de 19 años de experiencia previa en gestión comercial, ventas y administración. Especializado en supervisar indicadores, flujos e incidentes para garantizar estabilidad y rendimiento, combinando análisis de datos y automatización con Python y Go, Power BI y SQL para convertir métricas en decisiones. Certificado en Google Analytics y GA4, con experiencia en desarrollo front-end, back-end e infraestructura AWS, además de liderazgo de equipos comerciales, gestión de inventario y comercio minorista, planificación estratégica y atención al público.',
     experienceTitle: 'Experiencia',
     experience: [
       {
@@ -592,7 +596,6 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Análisis de datos',
           'Monitoreo de sistemas',
           'Gestión de incidentes',
-          'Operaciones de apuestas deportivas',
           'iGaming',
           'Atención al cliente',
           'SQL',
@@ -605,7 +608,7 @@ export const resumeContent: Record<string, ResumeContent> = {
         period: 'mar 2009 – may 2022 · 13 años 3 meses',
         location: 'Cabedelo, Paraiba, Brasil',
         description:
-          'Gestión de equipos comerciales, planificación de ventas, seguimiento de metas, expansión de la cartera de clientes y optimización de operaciones comerciales en el sector alimentario.',
+          'Gestión de equipos comerciales, planificación de ventas, seguimiento de metas, gestión de inventario y comercio minorista y optimización de operaciones comerciales en el sector alimentario.',
         skills: [
           'Ventas',
           'Estrategia de marketing',
@@ -743,6 +746,9 @@ export const resumeContent: Record<string, ResumeContent> = {
         skills: [
           'Análisis de datos',
           'Igaming',
+          'Gestión comercial',
+          'Planificación de ventas',
+          'Gestión minorista',
           'Crypto',
           'Criptomoneda',
           'Gestión de riesgos',
