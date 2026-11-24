@@ -35,6 +35,7 @@ export interface ResumeContent {
   fullName: string;
   headline: string;
   personalInfo: string;
+  license: string;
   location: string;
   profileTitle: string;
   profile: string;
@@ -68,15 +69,16 @@ export const resumeContent: Record<string, ResumeContent> = {
     fullName: 'Leandro Souza Gomes',
     headline:
       'Analista de Dados | Desenvolvedor Python | IA & Automação | iGaming & Sportsbook | Power BI | SQL\nGerente de Vendas | Gestão de Equipes Comerciais | Planejamento Estratégico & Operações',
-    personalInfo: '{age} anos, Casado, 3 filhos',
-    location: 'Santa Rita, Paraíba, Brasil',
+    personalInfo: '{age} anos, casado, 3 filhos',
+    license: 'CNH Categoria AB',
+    location: 'Tibiri, Santa Rita, Paraiba, Brasil',
     profileTitle: 'Perfil',
     profile:
       'Analista de dados, desenvolvedor e gestor com mais de 4 anos em operações de apostas esportivas e iGaming e mais de 19 anos de experiência prévia em gestão comercial, vendas e rotinas administrativas. Especialista em monitorar indicadores, fluxos e incidentes para garantir estabilidade e desempenho, combinando análise de dados com automação em Python e Go, Power BI e SQL para transformar métricas em decisões. Certificado em Google Analytics e GA4, com experiência em desenvolvimento front-end, back-end e infraestrutura AWS, além de forte atuação na liderança de equipes comerciais, expansão de carteira de clientes, planejamento estratégico e atendimento ao público.',
     experienceTitle: 'Experiência',
     experience: [
       {
-        role: 'Analista de Suporte | Operações de Apostas Esportivas & iGaming',
+        role: 'Analista de Suporte | Operações em Igaming',
         company: 'B2B TECH',
         period: 'mai 2022 – out 2026 · 4 anos 5 meses',
         location: 'Recife · Remoto',
@@ -98,6 +100,7 @@ export const resumeContent: Record<string, ResumeContent> = {
         role: 'Gerente de vendas',
         company: 'Comercial de Alimentos Hora H LTDA',
         period: 'mar 2009 – mai 2022 · 13 anos 3 meses',
+        location: 'Cabedelo, Paraiba, Brasil',
         description:
           'Gestão de equipes comerciais, planejamento de vendas, acompanhamento de metas, expansão da carteira de clientes e otimização de operações comerciais no setor de alimentos.',
         skills: [
@@ -236,9 +239,7 @@ export const resumeContent: Record<string, ResumeContent> = {
         title: 'Conhecimento do setor',
         skills: [
           'Análise de dados',
-          'Apostas esportivas',
-          'Cassino',
-          'Jogos de cassino',
+          'Igaming',
           'Ativos digitais',
           'Criptomoeda',
           'Gestão de riscos',
@@ -264,6 +265,8 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Microsoft Excel',
           'API REST',
           'Figma',
+          'Coreldraw',
+          'Photoshop',
           'Telegram',
           'Bancos de dados relacionais',
           'Bibliotecas JavaScript',
@@ -318,15 +321,16 @@ export const resumeContent: Record<string, ResumeContent> = {
     fullName: 'Leandro Souza Gomes',
     headline:
       'Data Analyst | Python Developer | AI & Automation | iGaming & Sportsbook | Power BI | SQL',
-    personalInfo: '{age} years old, Married, 3 children',
-    location: 'Santa Rita, Paraíba, Brazil',
+    personalInfo: '{age} years old, married, 3 children',
+    license: "Driver's License - Category AB",
+    location: 'Tibiri, Santa Rita, Paraiba, Brazil',
     profileTitle: 'Profile',
     profile:
       'Data analyst, developer and manager with 4+ years in Sportsbook and iGaming operations and 19+ years of prior experience in commercial management, sales and administration. Experienced in monitoring metrics, workflows and incidents to ensure stability and performance, combining data analysis with Python and Go automation, Power BI and SQL to turn metrics into decisions. Google Analytics and GA4 certified, with experience across front-end, back-end and AWS infrastructure, as well as commercial team leadership, client portfolio growth, strategic planning and customer service.',
     experienceTitle: 'Experience',
     experience: [
       {
-        role: 'Support Analyst | Sportsbook & iGaming Operations',
+        role: 'Support Analyst | Igaming Operations',
         company: 'B2B TECH',
         period: 'May 2022 – Oct 2026 · 4 yrs 5 mos',
         location: 'Recife · Remote',
@@ -348,6 +352,7 @@ export const resumeContent: Record<string, ResumeContent> = {
         role: 'Sales Manager',
         company: 'Comercial de Alimentos Hora H LTDA',
         period: 'Mar 2009 – May 2022 · 13 yrs 3 mos',
+        location: 'Cabedelo, Paraiba, Brazil',
         description:
           'Management of sales teams, sales planning, target tracking, client portfolio expansion and optimization of commercial operations in the food sector.',
         skills: [
@@ -485,9 +490,7 @@ export const resumeContent: Record<string, ResumeContent> = {
         title: 'Industry knowledge',
         skills: [
           'Data Analysis',
-          'Sports Betting',
-          'Casino',
-          'Casino Games',
+          'Igaming',
           'Crypto',
           'Cryptocurrency',
           'Risk Management',
@@ -513,6 +516,8 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Microsoft Excel',
           'REST API',
           'Figma',
+          'Coreldraw',
+          'Photoshop',
           'Telegram',
           'Relational Databases',
           'JavaScript Libraries',
@@ -567,15 +572,16 @@ export const resumeContent: Record<string, ResumeContent> = {
     fullName: 'Leandro Souza Gomes',
     headline:
       'Analista de Datos | Desarrollador Python | IA y Automatización | iGaming y Apuestas Deportivas | Power BI | SQL\nGerente de Ventas | Gestión de Equipos Comerciales | Planificación Estratégica y Operaciones',
-    personalInfo: '{age} años, Casado, 3 hijos',
-    location: 'Santa Rita, Paraíba, Brasil',
+    personalInfo: '{age} años, casado, 3 hijos',
+    license: 'Licencia de conducir - Categoría AB',
+    location: 'Tibiri, Santa Rita, Paraiba, Brasil',
     profileTitle: 'Perfil',
     profile:
       'Analista de datos, desarrollador y gestor con más de 4 años en operaciones de apuestas deportivas e iGaming y más de 19 años de experiencia previa en gestión comercial, ventas y administración. Especializado en supervisar indicadores, flujos e incidentes para garantizar estabilidad y rendimiento, combinando análisis de datos y automatización con Python y Go, Power BI y SQL para convertir métricas en decisiones. Certificado en Google Analytics y GA4, con experiencia en desarrollo front-end, back-end e infraestructura AWS, además de liderazgo de equipos comerciales, ampliación de carteras de clientes, planificación estratégica y atención al público.',
     experienceTitle: 'Experiencia',
     experience: [
       {
-        role: 'Analista de Soporte | Operaciones de Apuestas Deportivas e iGaming',
+        role: 'Analista de Soporte | Operaciones de Igaming',
         company: 'B2B TECH',
         period: 'may 2022 – oct 2026 · 4 años 5 meses',
         location: 'Recife · Remoto',
@@ -597,6 +603,7 @@ export const resumeContent: Record<string, ResumeContent> = {
         role: 'Gerente de ventas',
         company: 'Comercial de Alimentos Hora H LTDA',
         period: 'mar 2009 – may 2022 · 13 años 3 meses',
+        location: 'Cabedelo, Paraiba, Brasil',
         description:
           'Gestión de equipos comerciales, planificación de ventas, seguimiento de metas, expansión de la cartera de clientes y optimización de operaciones comerciales en el sector alimentario.',
         skills: [
@@ -735,9 +742,7 @@ export const resumeContent: Record<string, ResumeContent> = {
         title: 'Conocimiento del sector',
         skills: [
           'Análisis de datos',
-          'Apuestas deportivas',
-          'Casino',
-          'Juegos de casino',
+          'Igaming',
           'Crypto',
           'Criptomoneda',
           'Gestión de riesgos',
@@ -763,6 +768,8 @@ export const resumeContent: Record<string, ResumeContent> = {
           'Microsoft Excel',
           'API REST',
           'Figma',
+          'Coreldraw',
+          'Photoshop',
           'Telegram',
           'Bases de datos relacionales',
           'Bibliotecas JavaScript',

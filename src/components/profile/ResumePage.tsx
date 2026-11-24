@@ -154,6 +154,7 @@ export default function ResumePage() {
                 <h1 className="resume-name">{content.fullName}</h1>
                 <p className="resume-headline">{content.headline}</p>
                 <p className="resume-location">{personalInfo}</p>
+                <p className="resume-location">{content.license}</p>
                 <p className="resume-location">{content.location}</p>
               </div>
             </div>
